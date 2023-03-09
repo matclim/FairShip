@@ -266,10 +266,10 @@ void splitcal::ConstructGeometry()
     InitMedium("argon");
     InitMedium("GEMmixture");
     
+    TGeoMedium *A1 =gGeoManager->GetMedium("Scintillator");
     TGeoMedium *A2 =gGeoManager->GetMedium("iron");
     TGeoMedium *A3 =gGeoManager->GetMedium("lead");
     TGeoMedium *A4 =gGeoManager->GetMedium("GEMmixture");    
-    TGeoMedium *A1 =gGeoManager->GetMedium("Scintillator");
 
 
 

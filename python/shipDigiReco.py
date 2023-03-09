@@ -261,6 +261,7 @@ class ShipDigiReco:
  def digitizeSplitcal(self):  
    listOfDetID = {} # the idea is to keep only one hit for each cell/strip and if more points fall in the same cell/strip just sum up the energy
    index = 0
+   dumbcount = 0
    for aMCPoint in self.sTree.splitcalPoint:
      aHit = ROOT.splitcalHit(aMCPoint,self.sTree.t0)
      detID = aHit.GetDetectorID()
@@ -270,11 +271,16 @@ class ShipDigiReco:
        listOfDetID[detID] = index
        self.digiSplitcal[index]=aHit
        index+=1
+       if aHit.GetvecofExtraHits():
+         vecorofExtraHits = aHit.GetvecofExtraHits()
+         for i in vecorofExtraHits:
+           self.digiSplitcal[index]=i
+           index+=1
      else:
+       dumbcount +=1
        indexOfExistingHit = listOfDetID[detID]
        self.digiSplitcal[indexOfExistingHit].UpdateEnergy(aHit.GetEnergy())
    self.digiSplitcal.Compress() #remove empty slots from array
-
    ##########################    
    # cluster reconstruction #
    ##########################
@@ -288,13 +294,11 @@ class ShipDigiReco:
    list_hits_above_threshold_HPL = []
    # print '--- digitizeSplitcal - self.digiSplitcal.GetSize() = ', self.digiSplitcal.GetSize()  
    for hit in self.digiSplitcal:
-     print("HPLStatus ",hit.GetIsPrecisionLayer())
-     if(hit.GetEnergy() > noise_energy_threshold and !hit.GetIsPrecisionLayer()):
+     if(hit.GetEnergy() > noise_energy_threshold and not hit.GetIsPrecisionLayer()):
        hit.SetIsUsed(0)
        # hit.SetEnergyWeight(1)
        list_hits_above_threshold.append(hit)
      if((hit.GetEnergy() > noise_energy_threshold_HPL) and (hit.GetIsPrecisionLayer())):
-       print("HPLHit",hit.GetX()) 
        hit.SetIsUsed(0)
        # hit.SetEnergyWeight(1)
        list_hits_above_threshold_HPL.append(hit)
@@ -417,18 +421,45 @@ class ShipDigiReco:
 
      ########### HPL Clustering #########
 
-     print("number of hits of threshold HPL",len(list_hits_above_threshold_HPL))
-
-     for j,h in enumerate(list_hits_above_threshold_HPL):
-        if j==0: aCluster = ROOT.splitcalHPLCluster(h)
-        else:  aCluster.AddHit(h)
-     aCluster.SetIndex(int(i))
-     # aCluster.Print()
-     if self.recoSplitcalHPL.GetSize() == i:
-       self.recoSplitcalHPL.Expand(i+1000)
-     self.recoSplitcalHPL[i]=aCluster
-
-     self.recoSplitcalHPL.Compress() #remove empty slots from array  
+    # print("number of hits of threshold HPL",len(list_hits_above_threshold_HPL))
+#############To be fixed in time #############
+   #stopflag = 0
+   #clusnum=0
+   #cluslayer=-1
+#   while(not stopflag):
+#     newloop=1
+#     aCluster= ROOT.splitcalHPLCluster()
+#     for i,h in enumerate(list_hits_above_threshold_HPL):	
+#       if(not h.IsUsed() and newloop):
+#         print("HIT LAYER ", h.GetLayer())
+#         aCluster = ROOT.splitcalHPLCluster(h)
+#         newloop=0
+#         clusnum+=1
+#         cluslayer=h.GetLayer()
+#         h.SetIsUsed(1);
+#       elif(not h.IsUsed() and h.GetLayer()==cluslayer):  
+#         aCluster.AddHit(h)
+#         h.SetIsUsed(1);
+     #if(aCluster.)
+     #aCluster.SetIndex(int(clusnum))
+     #aCluster.Clusterize()
+   	#try: aCluster.SetIndex(int(i))
+   	#except: 
+   	#   aCluster=ROOT.splitcalHPLCluster();
+   	#   aCluster.SetIndex(int(i))
+   	#aCluster.Clusterize()
+      #stopflag=aCluster.GetStopSignal()
+      # aCluster.Print()
+#     if self.recoSplitcalHPL.GetSize() == clusnum:
+#        self.recoSplitcalHPL.Expand(i+1000)
+#     self.recoSplitcalHPL[clusnum]=aCluster
+#     self.recoSplitcalHPL.Compress() #remove empty slots from array  
+#     stopflag=aCluster.GetStopSignal()
+##############################################
+     #for h in list_hits_above_threshold_HPL:
+     #   stopflag=1
+     #   if(not h.IsUsed()):
+     #       stopflag=0
 
      ###########       
   

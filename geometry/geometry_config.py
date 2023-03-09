@@ -257,7 +257,7 @@ with ConfigRegistry.register_config("basic") as c:
     c.SplitCal.FilterHCALMaterial= 2
     c.SplitCal.ActiveECALMaterial= 1
     c.SplitCal.ActiveHCALMaterial= 1
-    c.SplitCal.ActiveECAL_gas_Thickness=1.12*u.cm
+    c.SplitCal.ActiveECAL_gas_Thickness=1.12*u.mm
     c.SplitCal.num_precision_layers=1
     c.SplitCal.first_precision_layer=6
     c.SplitCal.second_precision_layer=10
