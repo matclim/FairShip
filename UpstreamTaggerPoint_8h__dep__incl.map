@@ -1,0 +1,9 @@
+<map id="UpstreamTagger/UpstreamTaggerPoint.h" name="UpstreamTagger/UpstreamTaggerPoint.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="296,5,536,45"/>
+<area shape="rect" id="Node000002" href="$UpstreamTagger_8cxx.html" title=" " alt="" coords="5,101,272,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="343,52,176,103,175,98,341,47"/>
+<area shape="rect" id="Node000003" href="$UpstreamTaggerHit_8cxx.html" title=" " alt="" coords="296,93,536,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="419,59,419,93,413,93,413,59"/>
+<area shape="rect" id="Node000004" href="$UpstreamTaggerPoint_8cxx.html" title=" " alt="" coords="560,93,800,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="488,47,623,91,621,96,486,52"/>
+</map>
