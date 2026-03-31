@@ -183,6 +183,7 @@ def configure_veto(yaml_file: str, z0) -> None:
     veto_geo = AttrDict(config)
 
     Veto = ROOT.veto()
+
     Veto.SetVesselDimensions(
         veto_geo.xstartInner,
         veto_geo.xendInner,
@@ -194,15 +195,9 @@ def configure_veto(yaml_file: str, z0) -> None:
     Veto.SetLiquidVeto(1)
 
     Veto.SetVesselStructure(
-        veto_geo.innerSupport,
         veto_geo.sensitiveThickness,
-        veto_geo.outerSupport,
-        veto_geo.innerSupportMed,
-        veto_geo.lidThickness,
         veto_geo.sensitiveMed,
-        veto_geo.outerSupportMed,
         veto_geo.decayMed,
-        veto_geo.rib,
     )
 
     detectorList.append(Veto)
