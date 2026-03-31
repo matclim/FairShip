@@ -38,6 +38,7 @@ class UpstreamTaggerHit : public SHiP::DetectorHit {
   UpstreamTaggerHit(const UpstreamTaggerHit& hit) = default;
   UpstreamTaggerHit& operator=(const UpstreamTaggerHit& hit) = default;
 
+<<<<<<< HEAD
   /** Position accessors **/
   Double_t GetX() const { return fX; }
   Double_t GetY() const { return fY; }
@@ -56,6 +57,35 @@ class UpstreamTaggerHit : public SHiP::DetectorHit {
   Double_t fY;     ///< Smeared y position (cm)
   Double_t fZ;     ///< Smeared z position (cm)
   Double_t fTime;  ///< Smeared time (ns)
+=======
+    TGeoNode* GetNode(Double_t &hit_final, Int_t &mod);
+    std::vector<double> GetTime(Double_t x);
+    std::vector<double> GetTime();
+    std::vector<double> GetMeasurements();
+    /** Modifier **/
+    void SetPoint(Double_t p1, Double_t p2, Double_t p3){point_final[0]=p1;point_final[1]=p2;point_final[2]=p3;}
+    /** Output to screen **/
+    virtual void Print() const;
+
+    void setInvalid() {flag = false;}
+    void setIsValid() {flag = true;}
+
+    //Rpc time is invalid if isValid returns False
+    bool isValid() const {return flag;}
+  private:
+    UpstreamTaggerHit(const UpstreamTaggerHit& point);
+    UpstreamTaggerHit operator=(const UpstreamTaggerHit& point);
+
+    UpstreamTagger* c0;
+    Double_t point_final[3];
+    const Double_t * mom[3];
+
+    Float_t flag;     ///< flag
+    Float_t time;
+    Double_t X, Y, Z;
+  
+    ClassDef(UpstreamTaggerHit,1);
+>>>>>>> 773ac29b8 (LastBitMuonShield, dummyUBT and cave set to vacuum)
 
   ClassDef(UpstreamTaggerHit, 2);
 };

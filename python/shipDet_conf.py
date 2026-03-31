@@ -423,6 +423,9 @@ def configure(run, ship_geo):
         detectorList.append(SplitCal)
 
     upstreamTagger = ROOT.UpstreamTagger("UpstreamTagger", ROOT.kTRUE)
+    upstreamTagger.SetXdim(ship_geo.UpstreamTagger.x_dim)
+    upstreamTagger.SetYdim(ship_geo.UpstreamTagger.y_dim)
+    upstreamTagger.SetZdim(ship_geo.UpstreamTagger.z_dim)
     upstreamTagger.SetZposition(ship_geo.UpstreamTagger.Z_Position)
     upstreamTagger.SetBoxDimensions(
         ship_geo.UpstreamTagger.BoxX, ship_geo.UpstreamTagger.BoxY, ship_geo.UpstreamTagger.BoxZ
@@ -437,6 +440,13 @@ def configure(run, ship_geo):
     timeDet.SetSizeY(2 * ship_geo.TimeDet.DY)
     detectorList.append(timeDet)
 
+    lastBitMuonShield = ROOT.lastBitMuonShield("lastBitMuonShield", ROOT.kTRUE)
+    lastBitMuonShield.SetXdim(ship_geo.lastBitMuonShield.x_dim)
+    lastBitMuonShield.SetYdim(ship_geo.lastBitMuonShield.y_dim)
+    lastBitMuonShield.SetZdim(ship_geo.lastBitMuonShield.z_dim)
+    lastBitMuonShield.SetZposition(ship_geo.lastBitMuonShield.Z_Position)
+    detectorList.append(lastBitMuonShield)
+    
     # -----   Magnetic field   -------------------------------------------
     if not hasattr(ship_geo.Bfield, "fieldMap"):
         if ship_geo.strawDesign == 4 or ship_geo.strawDesign == 10:
