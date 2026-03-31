@@ -177,36 +177,37 @@ TGeoVolume* veto::GeoTrapezoidHollow(TString xname,
   return T;
 }
 
-Double_t veto::wx(Double_t z) {
+double veto::wx(double z) {
   // calculate x thickness at z
-  Double_t wx1 = VetoStartInnerX;
-  Double_t wx2 = VetoEndInnerX;
-  Double_t z1 = 0 * m;
-  Double_t z2 = 50 * m;
+  double wx1 = VetoStartInnerX;
+  double wx2 = VetoEndInnerX;
+  double z1 = 0 * m;
+  double z2 = 50 * m;
   return (wx1 + (z - z1) * (wx2 - wx1) / (z2 - z1));
 }
 
-Double_t veto::wy(Double_t z) {
+double veto::wy(double z) {
   // calculate y thickness at z
-  Double_t wy1 = VetoStartInnerY;
-  Double_t wy2 = VetoEndInnerY;
-  Double_t z1 = 0 * m;
-  Double_t z2 = 50 * m;
+  double wy1 = VetoStartInnerY;
+  double wy2 = VetoEndInnerY;
+  double z1 = 0 * m;
+  double z2 = 50 * m;
   return (wy1 + (z - z1) * (wy2 - wy1) / (z2 - z1));
 }
 
 void veto::AddBlock(TGeoVolumeAssembly* tInnerWall,
                     TGeoVolumeAssembly* tDecayVacuum,
+                    TGeoVolumeAssembly* tOuterWall,
 		    int blockNr,
-                    Double_t z1,
-                    Double_t z2,
-                    Double_t Zshift,
-                    Double_t wallThick) {
+                    double z1,
+                    double z2,
+                    double Zshift,
+                    double wallThick) {
   TString blockName = "block";
   blockName += blockNr;
   
   int ribColor = 15;
-  Double_t wz = (z2 - z1);
+  double wz = (z2 - z1);
 
   // inner wall
   TString nameInnerWall = (TString) tInnerWall -> GetName() + "_" + blockName;
@@ -219,7 +220,7 @@ void veto::AddBlock(TGeoVolumeAssembly* tInnerWall,
 				       wy(z1),
 				       wy(z2),
 				       ribColor,
-				       vetoMed);
+				       supportMedIn);
   
   tInnerWall->AddNode(TIW, 0, new TGeoTranslation(0, 0, Zshift));
 
@@ -236,7 +237,23 @@ void veto::AddBlock(TGeoVolumeAssembly* tInnerWall,
 				 decayVolumeMed);
 
   TDV->SetVisibility(kFALSE);
+  
   tDecayVacuum->AddNode(TDV, 0, new TGeoTranslation(0, 0, Zshift));
+  
+  // outer wall
+  TString nameOuterWall = (TString) tOuterWall -> GetName() + "_" + blockName;
+  
+  TGeoVolume* TOW = GeoTrapezoidHollow(nameOuterWall,
+				       wallThick,
+				       wz,
+				       wx(z1) + 2 * wallThick,
+				       wx(z2) + 2 * wallThick,
+				       wy(z1) + 2 * wallThick,
+				       wy(z2) + 2 * wallThick,
+				       ribColor,
+				       supportMedIn);
+  
+  tOuterWall->AddNode(TOW, 0, new TGeoTranslation(0, 0, Zshift));
 }
 
 TGeoVolume* veto::MakeSegments() {
@@ -247,26 +264,52 @@ TGeoVolume* veto::MakeSegments() {
   
   TString nameDecayVacuum = "DecayVacuum";
   TGeoVolumeAssembly* tDecayVacuum = new TGeoVolumeAssembly(nameDecayVacuum);
-
-  Double_t wallThick = f_VetoThickness;
   
-  Double_t z1 = 0 * m;
-  Double_t z2 = 50.0 * m;
-  Double_t wz = (z2 - z1);
+  TString nameOuterWall = "VetoOuterWall";
+  TGeoVolumeAssembly* tOuterWall = new TGeoVolumeAssembly(nameOuterWall);
+
+  double wallThick = f_InnerSupportThickness;
+  
+  //******************************** Block1 **************************************
+  double z1 = 0 * m;
+  double z2 = 800 * mm;
+  double wz = (z2 - z1);
     
-  Double_t Zshift = wz / 2;   // calibration of Z position
+  double Zshift = wz / 2;   // calibration of Z position
   
   AddBlock(tInnerWall,
 	   tDecayVacuum,
+	   tOuterWall,
 	   1,
 	   z1,
 	   z2,
 	   Zshift,
-	   wallThick);  
+	   wallThick);
+
+  //******************************** Block2 **************************************
+
+  Zshift += wz / 2;
+  
+  z1 = 800 * mm;
+  z2 = 50.0 * m;
+  wz = (z2 - z1);
+  
+  Zshift += wz / 2;
+  
+  AddBlock(tInnerWall,
+	   tDecayVacuum,
+	   tOuterWall,
+	   2,
+	   z1,
+	   z2,
+	   Zshift,
+	   wallThick);
+  
   
   tTankVol->AddNode(tInnerWall, 0, new TGeoTranslation(0, 0, 0));
   tTankVol->AddNode(tDecayVacuum, 0, new TGeoTranslation(0, 0, 0));
-    
+  tTankVol->AddNode(tOuterWall, 0, new TGeoTranslation(0, 0, 0));
+  
   return tTankVol;
 }
 
@@ -406,9 +449,10 @@ void veto::ConstructGeometry() {
   
   gGeoManager->SetNsegments(100);
   vetoMed = gGeoManager->GetMedium(vetoMed_name);   //! medium of veto counter, liquid or plastic scintillator
+  supportMedIn = gGeoManager->GetMedium(supportMedIn_name);       //! medium of support structure, iron, balloon
+  supportMedOut = gGeoManager->GetMedium(supportMedOut_name);     //! medium of support structure, aluminium, balloon
   decayVolumeMed = gGeoManager->GetMedium(decayVolumeMed_name);   // decay volume, air/helium/vacuum
-
-  LOG(INFO) << "veto: Veto medium set as: " <<  vetoMed_name;
+  
   LOG(INFO) << "veto: Decay Volume medium set as: " <<  decayVolumeMed_name;
   TGeoVolume* tDecayVol = new TGeoVolumeAssembly("DecayVolume");
 

@@ -70,12 +70,24 @@ public:
    *      Create the detector geometry        
    */
   void ConstructGeometry();
-  void SetVesselStructure(Double_t a,
-			  TString  b,
-			  TString  c) {
-    f_VetoThickness = a;
-    vetoMed_name = b;
-    decayVolumeMed_name = c;
+  void SetVesselStructure(Float_t a,
+			  Float_t b,
+			  Float_t c,
+			  TString d,
+			  Float_t l,
+			  TString e,
+			  TString f,
+			  TString v,
+			  Float_t r) {
+    f_InnerSupportThickness = a;
+    f_VetoThickness = b;
+    f_OuterSupportThickness = c;
+    supportMedIn_name = d;
+    f_LidThickness = l;
+    vetoMed_name = e;
+    supportMedOut_name = f;
+    decayVolumeMed_name = v;
+    f_RibThickness = r;
   }
 
   /*
@@ -128,15 +140,28 @@ private:
   Float_t fELoss;
   
   Bool_t fFastMuon, fFollowMuon;
+  
+  Float_t f_InnerSupportThickness;
+  Float_t f_OuterSupportThickness;
 
-  //! thickness of veto detector
-  Double_t f_VetoThickness;
-  //! medium of veto counter (default: vacuum) 
+  //! Thickness of the entrance/exit lid of the Decay Volume
+  Float_t f_LidThickness;
+  //! Thickness of the liquid scintillator along z(Default = 20cm).
+  Float_t f_VetoThickness;
+  Float_t f_RibThickness;
+
+  //! medium of veto counter, liquid or plastic scintillator
   TString vetoMed_name;
-  //! medium of decay volume (default: helium)
+    //! medium of internal support structure(Default = Aluminum).
+  TString supportMedIn_name;
+  //! medium of external support structure(Default = Aluminum).
+  TString supportMedOut_name;
+  //! medium of decay volume(Default= helium).
   TString decayVolumeMed_name;
   
   TGeoMedium* vetoMed;
+  TGeoMedium* supportMedIn;
+  TGeoMedium* supportMedOut;
   TGeoMedium* decayVolumeMed;
   
   //! Width of the Vessel along X at the start
@@ -192,6 +217,7 @@ private:
    */
   void AddBlock(TGeoVolumeAssembly* tInnerWall,
 		TGeoVolumeAssembly* tDecayVacuum,
+		TGeoVolumeAssembly* tOuterWall,
 		int blockNr,
 		double z1,
 		double z2,

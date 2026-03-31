@@ -192,8 +192,6 @@ def configure_veto(yaml_file: str, z0) -> None:
         z0,
     )
 
-    Veto.SetLiquidVeto(1)
-
     Veto.SetVesselStructure(
         veto_geo.sensitiveThickness,
         veto_geo.sensitiveMed,
@@ -370,13 +368,12 @@ def configure(run, ship_geo):
         magnet = ROOT.ShipMagnet("Magnet", "SHiP Magnet", ship_geo.Bfield.z)
     detectorList.append(magnet)
 
-    fairship = os.environ["FAIRSHIP"]
 
+    fairship = os.environ["FAIRSHIP"]
     configure_veto(
         os.path.join(fairship, f"geometry/veto_config_{ship_geo.DecayVolumeMedium}.yaml"),
         ship_geo.decayVolume.z0,
     )
-
     configure_strawtubes(
         os.path.join(os.environ["FAIRSHIP"], "geometry", "strawtubes_config.yaml"),
         ship_geo,

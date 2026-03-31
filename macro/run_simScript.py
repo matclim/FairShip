@@ -263,6 +263,14 @@ parser.add_argument(
 parser.add_argument(
     "--tag", dest="output_tag", help="Custom tag for output files instead of auto-generated UUID", default=None
 )
+parser.add_argument(
+    "--dummy",
+    dest="decayVolMed",
+    help="Set Veto as a dummy plane used for counting, enclosing a helium decay volume.",
+    action="store_const",
+    const="dummy",
+    default="helium"
+)
 
 
 options = parser.parse_args()
