@@ -104,6 +104,9 @@ Points at the DIS vertex or downstream are excluded. Copied points refer to
 metadata are preserved.
 The helper matches the generator's input order, material counts and starting
 muon entry, including filtered inputs and runs ending partway through a muon.
+For every output event it checks that `muDIS_muEntry`, `muDIS_material` and
+`muDIS_disIndex` match the interaction it is about to use, and stops with an
+error, leaving the output unchanged, if they differ.
 It must run before any output event skimming or reordering.
 
 ## Overview of classes:

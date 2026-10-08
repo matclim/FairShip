@@ -19,13 +19,20 @@ _POINT_BRANCHES = (
     ("muon_TDPoints", "TimeDetPoint"),
 )
 _MARKER = "MuDISGenerator_postProcessing"
+# Per-event identity written by NewMuDISGenerator.RegisterOutputBranches.
+_IDENTITY_BRANCHES = ("muDIS_muEntry", "muDIS_material", "muDIS_disIndex")
 
 
 def _dis_events(input_files, start_event):
-    """Yield the muon tree and DIS z in the generator's exact replay order."""
+    """Yield the muon tree, DIS z and identity in the generator's replay order.
+
+    The identity is (muon entry across all input files, material label, DIS
+    index within that muon and material), as NewMuDISGenerator writes it.
+    """
     # Use the generator's material order from MuDISDefs.h.
     materials = [str(label) for label in ROOT.NewMuDISGenerator.GetMaterialNames()]
     skip = start_event
+    offset = 0  # entries in the preceding input files
     for name in input_files:
         with ROOT.TFile.Open(str(name), "READ") as source:
             tree = source.Get("MuonDIS")
@@ -34,6 +41,7 @@ def _dis_events(input_files, start_event):
             entries = tree.GetEntries()
             if skip >= entries:
                 skip -= entries
+                offset += entries
                 continue
             required = [branch for branch, _ in _POINT_BRANCHES]
             for material in materials:
@@ -53,11 +61,12 @@ def _dis_events(input_files, start_event):
                     vertices = getattr(tree, f"mudis_DISvz_{material}")
                     if count < 0 or len(vertices) != count:
                         raise ValueError(f"Invalid DIS count/vertices in {name}, entry {entry}, material {material}")
-                    for z in vertices:
+                    for index, z in enumerate(vertices):
                         if not math.isfinite(z):
                             raise ValueError(f"Non-finite DIS vertex in {name}, entry {entry}")
-                        yield tree, float(z)
+                        yield tree, float(z), (offset + entry, material, index)
             skip = 0
+            offset += entries
 
 
 def _copy_metadata(source, destination, skip=()):
@@ -83,6 +92,9 @@ def post_process(output_file, input_files, start_event=0):
     Input files and start_event (a zero-based muon entry across the files) must
     match NewMuDISGenerator.Init. Output must still be in generator order, before
     any event skimming. Its entry count sets how many DIS interactions to consume.
+    Each output entry's muDIS_muEntry, muDIS_material and muDIS_disIndex must
+    match the interaction read here; any mismatch raises before the output is
+    replaced, so hits are never attached to the wrong event.
     Copied points reference MCTrack[0], the untracked incoming muon; their event
     IDs are updated too. Other point properties and simulated hits are preserved.
 
@@ -120,7 +132,7 @@ def post_process(output_file, input_files, start_event=0):
             tree = source.Get("cbmsim")
             if not tree:
                 raise ValueError("Simulation output has no cbmsim tree")
-            for branch in ("MCTrack", *(name for _, name in _POINT_BRANCHES)):
+            for branch in ("MCTrack", *(name for _, name in _POINT_BRANCHES), *_IDENTITY_BRANCHES):
                 if not tree.GetBranch(branch):
                     raise ValueError(f"Simulation output has no {branch} branch")
             fd, temporary = tempfile.mkstemp(
@@ -134,11 +146,18 @@ def post_process(output_file, input_files, start_event=0):
                     if tree.GetEntry(entry) <= 0:
                         raise OSError(f"Cannot read simulation entry {entry}")
                     try:
-                        muon, vertex_z = next(events)
+                        muon, vertex_z, expected = next(events)
                     except StopIteration as error:
                         raise ValueError(
                             f"No input DIS interaction corresponding to simulation entry {entry}"
                         ) from error
+                    replayed = (int(tree.muDIS_muEntry), str(tree.muDIS_material), int(tree.muDIS_disIndex))
+                    if replayed != expected:
+                        raise ValueError(
+                            f"Simulation entry {entry} replayed (muon entry, material, DIS index) = {replayed}, "
+                            f"but the input order gives {expected}. Check that the input files and start "
+                            "entry match the simulation run and that the output was not skimmed."
+                        )
                     tracks = tree.MCTrack
                     if not tracks.size() or abs(tracks[0].GetPdgCode()) != 13 or tracks[0].GetMotherId() != -1:
                         raise ValueError(f"Simulation entry {entry} has no incoming muon at MCTrack[0]")
