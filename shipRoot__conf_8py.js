@@ -1,6 +1,5 @@
 var shipRoot__conf_8py =
 [
-    [ "configure", "shipRoot__conf_8py.html#a4bb207e902847385c1369c120d9063ec", null ],
-    [ "forReadingOldFile", "shipRoot__conf_8py.html#a4c1ff8996fc0955c3bd4c4832c644793", null ],
-    [ "pyExit", "shipRoot__conf_8py.html#a43f3431c7cd718507ed9f1e039c66c14", null ]
+    [ "configure", "shipRoot__conf_8py.html#a59bfc0b1b7bf8bc3e1a1270881622da6", null ],
+    [ "genfit_root", "shipRoot__conf_8py.html#abe7f64e661e45192074d6aff22e9fa75", null ]
 ];

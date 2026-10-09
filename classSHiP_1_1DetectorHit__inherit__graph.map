@@ -1,0 +1,17 @@
+<map id="SHiP::DetectorHit" name="SHiP::DetectorHit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="324,79,459,104"/>
+<area shape="rect" id="Node000003" href="$classMTCDetHit.html" title=" " alt="" coords="5,152,97,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="324,109,98,156,97,151,323,104"/>
+<area shape="rect" id="Node000004" href="$classSiliconTargetHit.html" title=" " alt="" coords="121,152,245,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="346,111,218,154,216,149,344,106"/>
+<area shape="rect" id="Node000005" href="$classTimeDetHit.html" title=" " alt="" coords="269,152,367,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="371,116,332,154,328,150,368,112"/>
+<area shape="rect" id="Node000006" href="$classUpstreamTaggerHit.html" title="Hit class for UpstreamTagger scoring plane." alt="" coords="391,152,539,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="415,112,455,150,451,154,411,116"/>
+<area shape="rect" id="Node000007" href="$classstrawtubesHit.html" title=" " alt="" coords="563,152,676,177"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="442,106,583,149,582,154,440,111"/>
+<area shape="rect" id="Node000008" href="$classvetoHit.html" title=" " alt="" coords="700,152,771,177"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="466,104,689,149,700,152,699,157,688,155,465,109"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="355,5,427,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="394,44,394,79,389,79,389,44"/>
+</map>

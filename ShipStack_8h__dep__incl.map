@@ -1,29 +1,25 @@
 <map id="shipdata/ShipStack.h" name="shipdata/ShipStack.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="1257,5,1415,31"/>
-<area shape="rect" id="Node000002" href="$Target_8cxx.html" title=" " alt="" coords="5,79,160,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1243,22,1048,24,782,33,479,51,324,64,172,81,160,83,160,78,172,76,323,59,478,45,781,27,1048,19,1243,17"/>
-<area shape="rect" id="Node000003" href="$TargetTracker_8cxx.html" title=" " alt="" coords="184,79,339,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1243,23,1075,27,853,37,603,54,351,81,339,83,338,78,350,76,603,49,853,32,1075,22,1243,18"/>
-<area shape="rect" id="Node000004" href="$MTCDetector_8cxx.html" title=" " alt="" coords="363,86,559,111"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1243,27,944,46,759,61,572,81,523,89,522,83,572,76,758,56,944,40,1243,21"/>
-<area shape="rect" id="Node000005" href="$SiliconTarget_8cxx.html" title=" " alt="" coords="584,79,768,119"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1243,30,1031,51,780,81,769,83,768,78,780,76,1031,45,1243,25"/>
-<area shape="rect" id="Node000006" href="$TimeDet_8cxx.html" title=" " alt="" coords="792,86,957,111"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1248,35,970,81,931,89,930,83,969,76,1247,30"/>
-<area shape="rect" id="Node000007" href="$UpstreamTagger_8cxx.html" title=" " alt="" coords="981,86,1248,111"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1292,38,1148,88,1146,83,1290,33"/>
-<area shape="rect" id="Node000008" href="$muon_8cxx.html" title=" " alt="" coords="1273,86,1399,111"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1339,44,1339,86,1333,86,1333,44"/>
-<area shape="rect" id="Node000009" href="$exitHadronAbsorber_8cxx.html" title=" " alt="" coords="1423,79,1606,119"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1375,34,1473,76,1471,81,1373,39"/>
-<area shape="rect" id="Node000010" href="$simpleTarget_8cxx.html" title=" " alt="" coords="1630,79,1813,119"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1406,31,1630,76,1629,81,1405,36"/>
-<area shape="rect" id="Node000011" href="$ShipStack_8cxx.html" title=" " alt="" coords="1837,86,2011,111"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1429,26,1613,47,1826,76,1868,83,1867,89,1825,81,1612,52,1429,31"/>
-<area shape="rect" id="Node000012" href="$splitcal_8cxx.html" title=" " alt="" coords="2035,86,2181,111"/>
-<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1429,21,1697,39,1860,55,2023,76,2062,83,2061,89,2022,81,1859,60,1696,44,1429,26"/>
-<area shape="rect" id="Node000013" href="$strawtubes_8cxx.html" title=" " alt="" coords="2205,86,2403,111"/>
-<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1429,20,1766,38,1979,54,2194,76,2244,83,2243,89,2193,81,1979,60,1766,43,1429,25"/>
-<area shape="rect" id="Node000014" href="$veto_8cxx.html" title="Implementation of the Veto detector class." alt="" coords="2427,86,2538,111"/>
-<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="1429,19,1936,39,2213,55,2328,65,2415,76,2447,83,2446,89,2414,81,2327,70,2213,60,1936,44,1429,25"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="1035,5,1194,31"/>
+<area shape="rect" id="Node000002" href="$CaloScoringPlane_8cxx.html" title=" " alt="" coords="5,79,221,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1021,26,674,44,455,60,234,81,222,83,222,77,233,76,454,55,674,39,1021,20"/>
+<area shape="rect" id="Node000003" href="$Target_8cxx.html" title=" " alt="" coords="245,79,400,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1022,26,748,44,580,60,412,81,400,83,400,78,412,76,580,55,748,39,1022,21"/>
+<area shape="rect" id="Node000004" href="$TargetTracker_8cxx.html" title=" " alt="" coords="424,79,579,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1021,30,823,50,591,81,579,83,578,78,590,76,822,45,1021,25"/>
+<area shape="rect" id="Node000005" href="$MTCDetector_8cxx.html" title=" " alt="" coords="603,86,799,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1042,36,762,89,761,83,1041,31"/>
+<area shape="rect" id="Node000006" href="$SiliconTarget_8cxx.html" title=" " alt="" coords="824,79,1008,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1074,38,965,81,963,76,1072,33"/>
+<area shape="rect" id="Node000007" href="$TimeDet_8cxx.html" title=" " alt="" coords="1032,86,1197,111"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1117,44,1117,86,1112,86,1112,44"/>
+<area shape="rect" id="Node000008" href="$UpstreamTagger_8cxx.html" title=" " alt="" coords="1221,86,1488,111"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1163,32,1321,83,1319,89,1162,37"/>
+<area shape="rect" id="Node000009" href="$exitHadronAbsorber_8cxx.html" title=" " alt="" coords="1513,79,1695,119"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1206,30,1500,76,1513,78,1512,83,1500,81,1206,35"/>
+<area shape="rect" id="Node000010" href="$ShipStack_8cxx.html" title=" " alt="" coords="1720,86,1893,111"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1208,23,1436,44,1708,76,1751,83,1751,89,1708,81,1435,49,1207,29"/>
+<area shape="rect" id="Node000011" href="$strawtubes_8cxx.html" title=" " alt="" coords="1917,86,2115,111"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1208,21,1518,40,1711,56,1906,76,1955,83,1954,89,1905,81,1711,61,1517,45,1207,26"/>
+<area shape="rect" id="Node000012" href="$veto_8cxx.html" title="Implementation of the Veto detector class." alt="" coords="2139,86,2250,111"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1208,16,1380,17,1609,25,1867,43,1999,58,2127,76,2159,83,2158,89,2126,81,1998,63,1867,49,1608,30,1380,22,1208,21"/>
 </map>

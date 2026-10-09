@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['changelog_0',['Changelog',['../md_CHANGELOG.html',1,'']]]
+  ['ai_20policy_0',['AI Policy',['../md_AI__POLICY.html',1,'']]]
 ];

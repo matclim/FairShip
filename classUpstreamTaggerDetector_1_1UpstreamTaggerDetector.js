@@ -1,5 +1,5 @@
 var classUpstreamTaggerDetector_1_1UpstreamTaggerDetector =
 [
-    [ "__init__", "classUpstreamTaggerDetector_1_1UpstreamTaggerDetector.html#a31eec97c6f875fa4666afcf22623bd5e", null ],
-    [ "digitize", "classUpstreamTaggerDetector_1_1UpstreamTaggerDetector.html#a36ceb394d63e5b73d9a82146e039bb4e", null ]
+    [ "__init__", "classUpstreamTaggerDetector_1_1UpstreamTaggerDetector.html#ad59be6a6bb72e728fc32e717301b31d2", null ],
+    [ "digitize", "classUpstreamTaggerDetector_1_1UpstreamTaggerDetector.html#a0435e267926d60c3a4972397e44b783a", null ]
 ];

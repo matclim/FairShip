@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['xyzfromdetid_0',['XYZfromDetID',['../classmuonHit.html#a398f7c4a482125ecec0dfdc3bc19b5e1',1,'muonHit']]]
+  ['yandexprod_0',['YandexProd',['../namespacecompactingBackgroundProduction.html#a708e024acb290e4040ca0976c1be15f0',1,'compactingBackgroundProduction']]],
+  ['ybeam_1',['yBeam',['../namespacerunPythia8.html#a0773b179ce66354584f56325e5da1bc0',1,'runPythia8']]]
 ];

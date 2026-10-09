@@ -1,15 +1,10 @@
 var searchData=
 [
-  ['make_5fntuple_5fsbt_0',['make_nTuple_SBT',['../namespacemake__nTuple__SBT.html',1,'']]],
-  ['make_5fntuple_5ftr_1',['make_nTuple_Tr',['../namespacemake__nTuple__Tr.html',1,'']]],
-  ['makecascade_2',['makeCascade',['../namespacemakeCascade.html',1,'']]],
-  ['makedecay_3',['makeDecay',['../namespacemakeDecay.html',1,'']]],
-  ['makegenieevents_4',['makeGenieEvents',['../namespacemakeGenieEvents.html',1,'']]],
-  ['makemuondis_5',['makeMuonDIS',['../namespacemakeMuonDIS.html',1,'']]],
-  ['makemuonem_6',['makeMuonEM',['../namespacemakeMuonEM.html',1,'']]],
-  ['mergembias_7',['mergeMbias',['../namespacemergeMbias.html',1,'']]],
-  ['method_5flogger_8',['method_logger',['../namespacemethod__logger.html',1,'']]],
-  ['mtcdetector_9',['MTCDetector',['../namespaceMTCDetector.html',1,'']]],
-  ['mudis_5fmergefiles_10',['muDIS_mergeFiles',['../namespacemuDIS__mergeFiles.html',1,'']]],
-  ['muondetector_11',['muonDetector',['../namespacemuonDetector.html',1,'']]]
+  ['plotfieldmap_0',['plotFieldMap',['../namespaceplotFieldMap.html',1,'']]],
+  ['proton_5fbremsstrahlung_1',['proton_bremsstrahlung',['../namespaceproton__bremsstrahlung.html',1,'']]],
+  ['pythia8_2',['Pythia8',['../namespacePythia8.html',1,'']]],
+  ['pythia8_5fconf_3',['pythia8_conf',['../namespacepythia8__conf.html',1,'']]],
+  ['pythia8_5fconf_5futils_4',['pythia8_conf_utils',['../namespacepythia8__conf__utils.html',1,'']]],
+  ['pythia8darkphoton_5fconf_5',['pythia8darkphoton_conf',['../namespacepythia8darkphoton__conf.html',1,'']]],
+  ['pythialist_6',['PythiaList',['../namespacePythiaList.html',1,'']]]
 ];
