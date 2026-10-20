@@ -6,6 +6,9 @@ var annotated_dup =
     [ "darkphoton", "namespacedarkphoton.html", [
       [ "DarkPhoton", "classdarkphoton_1_1DarkPhoton.html", "classdarkphoton_1_1DarkPhoton" ]
     ] ],
+    [ "event_histogram", "namespaceevent__histogram.html", [
+      [ "EventHistogram", "classevent__histogram_1_1EventHistogram.html", "classevent__histogram_1_1EventHistogram" ]
+    ] ],
     [ "eventDisplay", "namespaceeventDisplay.html", [
       [ "DrawTracks", "classeventDisplay_1_1DrawTracks.html", "classeventDisplay_1_1DrawTracks" ],
       [ "DrawVetoDigi", "classeventDisplay_1_1DrawVetoDigi.html", "classeventDisplay_1_1DrawVetoDigi" ],
@@ -33,6 +36,7 @@ var annotated_dup =
     ] ],
     [ "makeCascadePythia8", "namespacemakeCascadePythia8.html", [
       [ "InclusiveSignalEvents", "classmakeCascadePythia8_1_1InclusiveSignalEvents.html", "classmakeCascadePythia8_1_1InclusiveSignalEvents" ],
+      [ "NucleusModel", "classmakeCascadePythia8_1_1NucleusModel.html", null ],
       [ "PythiaFactory", "classmakeCascadePythia8_1_1PythiaFactory.html", "classmakeCascadePythia8_1_1PythiaFactory" ],
       [ "SignalConfig", "classmakeCascadePythia8_1_1SignalConfig.html", null ],
       [ "SignalEvents", "classmakeCascadePythia8_1_1SignalEvents.html", "classmakeCascadePythia8_1_1SignalEvents" ]
@@ -59,6 +63,7 @@ var annotated_dup =
       [ "DetectorHit", "classSHiP_1_1DetectorHit.html", "classSHiP_1_1DetectorHit" ],
       [ "DetectorPoint", "classSHiP_1_1DetectorPoint.html", "classSHiP_1_1DetectorPoint" ],
       [ "Generator", "classSHiP_1_1Generator.html", "classSHiP_1_1Generator" ],
+      [ "ScoringPlane", "classSHiP_1_1ScoringPlane.html", "classSHiP_1_1ScoringPlane" ],
       [ "TTreeGenerator", "classSHiP_1_1TTreeGenerator.html", "classSHiP_1_1TTreeGenerator" ]
     ] ],
     [ "shipDigiReco", "namespaceshipDigiReco.html", [
@@ -68,6 +73,13 @@ var annotated_dup =
       [ "AttrDict", "classShipGeoConfig_1_1AttrDict.html", "classShipGeoConfig_1_1AttrDict" ],
       [ "Config", "classShipGeoConfig_1_1Config.html", "classShipGeoConfig_1_1Config" ]
     ] ],
+    [ "ShipMuDIS", "namespaceShipMuDIS.html", [
+      [ "CBMSimBranches", "structShipMuDIS_1_1CBMSimBranches.html", "structShipMuDIS_1_1CBMSimBranches" ],
+      [ "MuonBranches", "structShipMuDIS_1_1MuonBranches.html", "structShipMuDIS_1_1MuonBranches" ],
+      [ "MuonDISBranches", "structShipMuDIS_1_1MuonDISBranches.html", "structShipMuDIS_1_1MuonDISBranches" ],
+      [ "MuonDISInBranches", "structShipMuDIS_1_1MuonDISInBranches.html", "structShipMuDIS_1_1MuonDISInBranches" ],
+      [ "MuonInBranches", "structShipMuDIS_1_1MuonInBranches.html", "structShipMuDIS_1_1MuonInBranches" ]
+    ] ],
     [ "shipVertex", "namespaceshipVertex.html", [
       [ "Task", "classshipVertex_1_1Task.html", "classshipVertex_1_1Task" ]
     ] ],
@@ -76,6 +88,11 @@ var annotated_dup =
     ] ],
     [ "SiliconTargetDetector", "namespaceSiliconTargetDetector.html", [
       [ "SiliconTargetDetector", "classSiliconTargetDetector_1_1SiliconTargetDetector.html", "classSiliconTargetDetector_1_1SiliconTargetDetector" ]
+    ] ],
+    [ "split_provenance", "namespacesplit__provenance.html", [
+      [ "_Link", "classsplit__provenance_1_1__Link.html", null ],
+      [ "Desplit", "classsplit__provenance_1_1Desplit.html", "classsplit__provenance_1_1Desplit" ],
+      [ "SplitProvenance", "classsplit__provenance_1_1SplitProvenance.html", "classsplit__provenance_1_1SplitProvenance" ]
     ] ],
     [ "strawtubesDetector", "namespacestrawtubesDetector.html", [
       [ "strawtubesDetector", "classstrawtubesDetector_1_1strawtubesDetector.html", "classstrawtubesDetector_1_1strawtubesDetector" ]
@@ -91,6 +108,9 @@ var annotated_dup =
     [ "study_thinTarget", "namespacestudy__thinTarget.html", [
       [ "Block", "classstudy__thinTarget_1_1Block.html", "classstudy__thinTarget_1_1Block" ]
     ] ],
+    [ "test_signal_particle", "namespacetest__signal__particle.html", [
+      [ "FakeTrack", "classtest__signal__particle_1_1FakeTrack.html", "classtest__signal__particle_1_1FakeTrack" ]
+    ] ],
     [ "timeDetector", "namespacetimeDetector.html", [
       [ "timeDetector", "classtimeDetector_1_1timeDetector.html", "classtimeDetector_1_1timeDetector" ]
     ] ],
@@ -98,25 +118,36 @@ var annotated_dup =
       [ "TrackingBenchmark", "classtracking__benchmark_1_1TrackingBenchmark.html", "classtracking__benchmark_1_1TrackingBenchmark" ]
     ] ],
     [ "UpstreamTaggerDetector", "namespaceUpstreamTaggerDetector.html", [
+      [ "_FiredTile", "classUpstreamTaggerDetector_1_1__FiredTile.html", null ],
+      [ "UBTGeometryMismatch", "classUpstreamTaggerDetector_1_1UBTGeometryMismatch.html", null ],
       [ "UpstreamTaggerDetector", "classUpstreamTaggerDetector_1_1UpstreamTaggerDetector.html", "classUpstreamTaggerDetector_1_1UpstreamTaggerDetector" ]
     ] ],
     [ "CaloScoringPlane", "classCaloScoringPlane.html", "classCaloScoringPlane" ],
     [ "CaloScoringPlanePoint", "classCaloScoringPlanePoint.html", "classCaloScoringPlanePoint" ],
     [ "Co3Rng", "classCo3Rng.html", "classCo3Rng" ],
     [ "CosmicsGenerator", "classCosmicsGenerator.html", "classCosmicsGenerator" ],
+    [ "DISparticle", "classDISparticle.html", "classDISparticle" ],
     [ "DPPythia8Generator", "classDPPythia8Generator.html", "classDPPythia8Generator" ],
+    [ "EventHistogram", "classEventHistogram.html", "classEventHistogram" ],
     [ "EvtCalcGenerator", "classEvtCalcGenerator.html", "classEvtCalcGenerator" ],
     [ "exitHadronAbsorber", "classexitHadronAbsorber.html", "classexitHadronAbsorber" ],
     [ "FixedTargetGenerator", "classFixedTargetGenerator.html", "classFixedTargetGenerator" ],
     [ "GenieGenerator", "classGenieGenerator.html", "classGenieGenerator" ],
+    [ "Histograms", "structHistograms.html", "structHistograms" ],
     [ "HNLPythia8Generator", "classHNLPythia8Generator.html", "classHNLPythia8Generator" ],
     [ "ISTLPointContainer", "classISTLPointContainer.html", "classISTLPointContainer" ],
+    [ "MagneticTrackPropagator", "classMagneticTrackPropagator.html", "classMagneticTrackPropagator" ],
     [ "ModelSpec", "structModelSpec.html", "structModelSpec" ],
     [ "MTCDetector", "classMTCDetector.html", "classMTCDetector" ],
     [ "MTCDetHit", "classMTCDetHit.html", "classMTCDetHit" ],
     [ "MTCDetPoint", "classMTCDetPoint.html", "classMTCDetPoint" ],
+    [ "MuDISFilter", "classMuDISFilter.html", "classMuDISFilter" ],
     [ "MuDISGenerator", "classMuDISGenerator.html", "classMuDISGenerator" ],
+    [ "MuDISProcessor", "classMuDISProcessor.html", "classMuDISProcessor" ],
+    [ "MuGeoProcessor", "classMuGeoProcessor.html", "classMuGeoProcessor" ],
     [ "MuonBackGenerator", "classMuonBackGenerator.html", "classMuonBackGenerator" ],
+    [ "MuonPath", "classMuonPath.html", "classMuonPath" ],
+    [ "NewMuDISGenerator", "classNewMuDISGenerator.html", "classNewMuDISGenerator" ],
     [ "NtupleGenerator", "classNtupleGenerator.html", "classNtupleGenerator" ],
     [ "ParticleGunGenerator", "classParticleGunGenerator.html", "classParticleGunGenerator" ],
     [ "ParticleGunParticle", "structParticleGunParticle.html", "structParticleGunParticle" ],
@@ -138,7 +169,9 @@ var annotated_dup =
     [ "ShipMuonShield", "classShipMuonShield.html", "classShipMuonShield" ],
     [ "ShipParticle", "classShipParticle.html", "classShipParticle" ],
     [ "ShipPassiveContFact", "classShipPassiveContFact.html", "classShipPassiveContFact" ],
+    [ "ShipRunConfiguration", "classShipRunConfiguration.html", "classShipRunConfiguration" ],
     [ "ShipStack", "classShipStack.html", "classShipStack" ],
+    [ "ShipSteppingAction", "classShipSteppingAction.html", "classShipSteppingAction" ],
     [ "ShipTargetStation", "classShipTargetStation.html", "classShipTargetStation" ],
     [ "ShipTAUMagneticSpectrometer", "classShipTAUMagneticSpectrometer.html", "classShipTAUMagneticSpectrometer" ],
     [ "SiliconTarget", "classSiliconTarget.html", "classSiliconTarget" ],
@@ -163,9 +196,11 @@ var annotated_dup =
     [ "UpstreamTagger", "classUpstreamTagger.html", "classUpstreamTagger" ],
     [ "UpstreamTaggerHit", "classUpstreamTaggerHit.html", "classUpstreamTaggerHit" ],
     [ "UpstreamTaggerPoint", "classUpstreamTaggerPoint.html", "classUpstreamTaggerPoint" ],
+    [ "UpstreamTaggerScoringPlane", "classUpstreamTaggerScoringPlane.html", "classUpstreamTaggerScoringPlane" ],
+    [ "UpstreamTaggerScoringPoint", "classUpstreamTaggerScoringPoint.html", "classUpstreamTaggerScoringPoint" ],
     [ "VectorMCPointSource", "classVectorMCPointSource.html", "classVectorMCPointSource" ],
-    [ "veto", "classveto.html", "classveto" ],
     [ "Veto", "classVeto.html", null ],
+    [ "veto", "classveto.html", "classveto" ],
     [ "vetoContFact", "classvetoContFact.html", "classvetoContFact" ],
     [ "vetoHit", "classvetoHit.html", "classvetoHit" ],
     [ "vetoHitOnTrack", "classvetoHitOnTrack.html", "classvetoHitOnTrack" ],

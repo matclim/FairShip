@@ -1,28 +1,5 @@
 var searchData=
 [
-  ['make_5fntuple_5fsbt_2epy_0',['make_nTuple_SBT.py',['../make__nTuple__SBT_8py.html',1,'']]],
-  ['make_5fntuple_5ftr_2epy_1',['make_nTuple_Tr.py',['../make__nTuple__Tr_8py.html',1,'']]],
-  ['make_5ftime_5fwindow_2epy_2',['make_time_window.py',['../make__time__window_8py.html',1,'']]],
-  ['makecascade_2epy_3',['makeCascade.py',['../makeCascade_8py.html',1,'']]],
-  ['makecascadepythia8_2epy_4',['makeCascadePythia8.py',['../makeCascadePythia8_8py.html',1,'']]],
-  ['makedecay_2epy_5',['makeDecay.py',['../makeDecay_8py.html',1,'']]],
-  ['makegenieevents_2epy_6',['makeGenieEvents.py',['../makeGenieEvents_8py.html',1,'']]],
-  ['makemuondis_2epy_7',['makeMuonDIS.py',['../makeMuonDIS_8py.html',1,'']]],
-  ['makemuonem_2epy_8',['makeMuonEM.py',['../makeMuonEM_8py.html',1,'']]],
-  ['meanmaterialbudget_2ecxx_9',['MeanMaterialBudget.cxx',['../MeanMaterialBudget_8cxx.html',1,'']]],
-  ['meanmaterialbudget_2eh_10',['MeanMaterialBudget.h',['../MeanMaterialBudget_8h.html',1,'']]],
-  ['mergembias_2epy_11',['mergeMbias.py',['../mergeMbias_8py.html',1,'']]],
-  ['method_5flogger_2epy_12',['method_logger.py',['../method__logger_8py.html',1,'']]],
-  ['mtcdetector_2ecxx_13',['MTCDetector.cxx',['../MTCDetector_8cxx.html',1,'']]],
-  ['mtcdetector_2eh_14',['MTCDetector.h',['../MTCDetector_8h.html',1,'']]],
-  ['mtcdetector_2epy_15',['MTCDetector.py',['../MTCDetector_8py.html',1,'']]],
-  ['mtcdetectorlinkdef_2eh_16',['MTCDetectorLinkDef.h',['../MTCDetectorLinkDef_8h.html',1,'']]],
-  ['mtcdethit_2ecxx_17',['MTCDetHit.cxx',['../MTCDetHit_8cxx.html',1,'']]],
-  ['mtcdethit_2eh_18',['MTCDetHit.h',['../MTCDetHit_8h.html',1,'']]],
-  ['mtcdetpoint_2eh_19',['MTCDetPoint.h',['../MTCDetPoint_8h.html',1,'']]],
-  ['mudis_5fmergefiles_2epy_20',['muDIS_mergeFiles.py',['../muDIS__mergeFiles_8py.html',1,'']]],
-  ['mudisgenerator_2ecxx_21',['MuDISGenerator.cxx',['../MuDISGenerator_8cxx.html',1,'']]],
-  ['mudisgenerator_2eh_22',['MuDISGenerator.h',['../MuDISGenerator_8h.html',1,'']]],
-  ['muonbackgenerator_2ecxx_23',['MuonBackGenerator.cxx',['../MuonBackGenerator_8cxx.html',1,'']]],
-  ['muonbackgenerator_2eh_24',['MuonBackGenerator.h',['../MuonBackGenerator_8h.html',1,'']]]
+  ['lgpl_2d3_2e0_2dor_2dlater_2etxt_0',['LGPL-3.0-or-later.txt',['../LGPL-3_80-or-later_8txt.html',1,'']]],
+  ['linkdef_2eh_1',['linkdef.h',['../CaloScoringPlane_2LinkDef_8h.html',1,'(Global Namespace)'],['../Detector_2LinkDef_8h.html',1,'(Global Namespace)'],['../field_2LinkDef_8h.html',1,'(Global Namespace)'],['../muonShieldOptimization_2LinkDef_8h.html',1,'(Global Namespace)'],['../newMuonDIS_2LinkDef_8h.html',1,'(Global Namespace)'],['../passive_2LinkDef_8h.html',1,'(Global Namespace)'],['../shipdata_2LinkDef_8h.html',1,'(Global Namespace)'],['../shipgen_2LinkDef_8h.html',1,'(Global Namespace)'],['../strawtubes_2LinkDef_8h.html',1,'(Global Namespace)'],['../TimeDet_2LinkDef_8h.html',1,'(Global Namespace)'],['../UpstreamTagger_2LinkDef_8h.html',1,'(Global Namespace)'],['../veto_2LinkDef_8h.html',1,'(Global Namespace)']]]
 ];

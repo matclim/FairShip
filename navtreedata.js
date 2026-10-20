@@ -145,37 +145,57 @@ var NAVTREE =
       ] ]
     ] ],
     [ "README", "md_field_2README.html", null ],
+    [ "README.filter", "md_newMuonDIS_2README_8filter.html", [
+      [ "Filtering prepared DIS events", "md_newMuonDIS_2README_8filter.html#autotoc_md102", [
+        [ "Custom selections", "md_newMuonDIS_2README_8filter.html#autotoc_md103", null ],
+        [ "Reusable magnetic propagation", "md_newMuonDIS_2README_8filter.html#autotoc_md104", null ],
+        [ "Input branches in a chain", "md_newMuonDIS_2README_8filter.html#autotoc_md105", null ]
+      ] ]
+    ] ],
+    [ "README", "md_newMuonDIS_2README.html", [
+      [ "Muon DIS simulation", "md_newMuonDIS_2README.html#autotoc_md106", [
+        [ "Introduction", "md_newMuonDIS_2README.html#autotoc_md107", null ],
+        [ "Quick recipe", "md_newMuonDIS_2README.html#autotoc_md108", null ],
+        [ "Overview of classes:", "md_newMuonDIS_2README.html#autotoc_md109", null ],
+        [ "Path to volumes", "md_newMuonDIS_2README.html#autotoc_md110", null ],
+        [ "DIS events settings", "md_newMuonDIS_2README.html#autotoc_md111", null ],
+        [ "Structure of output tree:", "md_newMuonDIS_2README.html#autotoc_md112", null ]
+      ] ]
+    ] ],
     [ "FairShip", "md_README.html", [
-      [ "Introduction", "md_README.html#autotoc_md103", [
-        [ "Branches", "md_README.html#autotoc_md104", null ]
+      [ "Introduction", "md_README.html#autotoc_md114", [
+        [ "Branches", "md_README.html#autotoc_md115", null ]
       ] ],
-      [ "Using pixi", "md_README.html#autotoc_md105", [
-        [ "Build from source (recommended)", "md_README.html#autotoc_md106", null ],
-        [ "Using the pre-built package", "md_README.html#autotoc_md107", null ]
+      [ "Using pixi", "md_README.html#autotoc_md116", [
+        [ "Build from source (recommended)", "md_README.html#autotoc_md117", null ],
+        [ "Using the pre-built package", "md_README.html#autotoc_md118", null ],
+        [ "On lxplus (AFS)", "md_README.html#autotoc_md119", null ]
       ] ],
-      [ "Run instructions", "md_README.html#autotoc_md108", null ],
-      [ "Docker instructions", "md_README.html#autotoc_md109", null ],
-      [ "Troubleshooting information", "md_README.html#autotoc_md110", null ],
-      [ "Documentation", "md_README.html#autotoc_md111", null ],
-      [ "License", "md_README.html#autotoc_md112", null ],
-      [ "Contributing code", "md_README.html#autotoc_md113", null ],
-      [ "Legacy releases (CVMFS + aliBuild)", "md_README.html#autotoc_md114", [
-        [ "With CVMFS (lxplus and similar)", "md_README.html#autotoc_md115", null ],
-        [ "Without CVMFS", "md_README.html#autotoc_md116", null ]
+      [ "Run instructions", "md_README.html#autotoc_md120", null ],
+      [ "Docker instructions", "md_README.html#autotoc_md121", null ],
+      [ "Troubleshooting information", "md_README.html#autotoc_md122", null ],
+      [ "Documentation", "md_README.html#autotoc_md123", null ],
+      [ "License", "md_README.html#autotoc_md124", null ],
+      [ "Contributing code", "md_README.html#autotoc_md125", null ],
+      [ "Legacy releases (CVMFS + aliBuild)", "md_README.html#autotoc_md126", [
+        [ "With CVMFS (lxplus and similar)", "md_README.html#autotoc_md127", null ],
+        [ "Without CVMFS", "md_README.html#autotoc_md128", null ]
       ] ]
     ] ],
     [ "Configuration files for GENIE simulations", "md_shipgen_2genie__config_2README.html", [
-      [ "Introduction", "md_shipgen_2genie__config_2README.html#autotoc_md118", null ],
-      [ "Details", "md_shipgen_2genie__config_2README.html#autotoc_md119", null ],
-      [ "History", "md_shipgen_2genie__config_2README.html#autotoc_md120", null ],
-      [ "Notes on particle decays", "md_shipgen_2genie__config_2README.html#autotoc_md121", null ]
+      [ "Introduction", "md_shipgen_2genie__config_2README.html#autotoc_md130", null ],
+      [ "Details", "md_shipgen_2genie__config_2README.html#autotoc_md131", null ],
+      [ "History", "md_shipgen_2genie__config_2README.html#autotoc_md132", null ],
+      [ "Notes on particle decays", "md_shipgen_2genie__config_2README.html#autotoc_md133", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
-        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ]
+        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -209,37 +229,43 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ACTSReco_8py.html",
-"ShipDetectorList_8h.html#a1806da1a0fbae8ab81f7330906f65680a3a5f17af29cf4a80d9e20f448c7fc96d",
-"ana__ShipMuon_8py.html#a3a447f71694142541532694fca732361",
-"classEvtCalcGenerator.html#a36d472ee9187a325919b0d50d9e3dd46a81be67088223b0c52f078e7e78eca6c9",
-"classMTCDetHit.html",
-"classParticleGunGenerator.html#ae49d546689a9c16db82c0a1fc6a576cb",
-"classSHiP_1_1TTreeGenerator.html#a1961bf5c5c805cd8069471bdc0943759",
-"classShipConstField.html#adb530b5351fafd1edca81941af826e59",
-"classShipParticle.html#a0dd9530159d6bcadbcc6768c282b14bb",
-"classTarget.html#a564da5b6367a3610f650931f69e863f5",
-"classdarkphoton_1_1DarkPhoton.html#a86ed2b4c1ea0fae26c798d4733b23346",
-"classfieldMapTools_1_1MapRange.html#a7ef93932d935f848b2f29406359f3479",
-"classrpvsusy_1_1constants.html#a93f72fb92dffdda3c26141271fba02c6",
-"classstrawtubesPoint.html#a7ba3eff15691a37b91c5c128254a29a8",
-"convertEvtCalc_8py.html#a323c5eda6e581f54e1bb13a038600b63",
-"extractNeutrinosAndUpdateWeight_8py.html#a255cf9b881f376a23b67633ac2307b83",
-"hepunit_8py.html#a539ba804c693c9c16d8c61235fafc349",
-"makeDecay_8py.html#ae036a600a0fe461ba6d63d7c5a7d1eb0",
-"md_CHANGELOG.html#autotoc_md45",
-"namespaceShipReco.html#acc64c7017469a0c560aa3810436b49f9",
-"namespaceevd__fillEnergy.html#ade878b622c0fe110d4ef453bea001a2c",
-"namespacehepunit.html#a13d4d4a682566e034747b30bba0e8d4a",
-"namespacemakeDecay.html#a7ec12e88da32853a5e27cbbf8bcd8899",
-"namespacemembers_func_r.html",
-"namespacerunPythia8.html#ad9597c9a1ad3ce48b90a0cb190e54bb2",
-"namespacerun__simScript.html#abb5c7a5b05a93048a8e607f187efb37a",
-"namespaceshipunit.html#a630c23fd38b8ff5b14c11ab181ba67fd",
-"namespacetest__heavyFlavourScaling.html#a9f6b6f052a9005f5a52e098da3dc7a81",
-"run__fixedTarget_8py.html#a0c69a894251ef9de75b9a06ec7d12804",
-"run__simScript_8py_source.html",
-"shipunit_8py.html#a86f9ba53297f60184e521655c576baaf",
-"study__thinTarget_8py.html#aa9ff8642ba3746c2603b01b6f1595c8b"
+"ShipAna_8py.html#a7c6176c9bd251d2e60a14b3cfd89b883",
+"TimeDetPoint_8h.html",
+"classCosmicsGenerator.html#a664fc987559cce19725f73c726f0e4ad",
+"classFixedTargetGenerator.html#ae7435e29af3557494013f4c469e959d2",
+"classMagneticTrackPropagator.html#a7784f1f87b75d75e8690e2338bece5a2",
+"classMuonBackGenerator.html#afd951213da12a75e33dc245f19488c65",
+"classSBTDetector_1_1SBTDetector.html",
+"classSciFiMapping_1_1SciFiMapping.html#a711c6e6903a78ca930fabd1913ce5d6f",
+"classShipFieldPar.html",
+"classShipParticle.html#ae992a0238dd194a943f150a7de4a2dc3",
+"classTarget.html#afa4d910ed7f87b3ad72a45a5ba08dc5c",
+"classdarkphoton_1_1DarkPhoton.html#a07316739e6579eb4c8d347730c8045c9",
+"classexitHadronAbsorber.html#a8c26ad62d53d8b8d45d89c5fb04e7aa8",
+"classmakeCascadePythia8_1_1InclusiveSignalEvents.html#ac73563524f3afd46d7979652a3c9faea",
+"classshipVertex_1_1Task.html#af6c661b95f8321a0f068c80235f048d2",
+"classtimeDetector_1_1timeDetector.html#a065f5a44b3e3f47982f99e69fe23e1bc",
+"dir_32113a12037a3d9f3997febc88bd6396.html",
+"filterEvents_8py.html",
+"hepunit_8py.html#a770736be7b28c7b0cc7b20f3905f0f06",
+"makeGenieEvents_8py.html",
+"md_CHANGELOG.html#autotoc_md55",
+"namespaceShipMuDIS.html#a6e84a21bf00778eafdce1fb4cb1cff55ad90d58ac569e838ceabe9ec733a160fe",
+"namespacedarkphoton.html",
+"namespacegenie__interface.html#a8f17cbbaa6408171e262ba75a09c86a9",
+"namespacemakeCascade.html#a55ced533804f50a9850abd7104f12e53",
+"namespacemake__nTuple__Tr.html#a15188253446edc9333ebc80218805d7f",
+"namespacepythia8__conf__utils.html#a6a47cb7861e4155b59d826ed6e40d730",
+"namespacerun__prod.html#a6bce3580c3094f821b27822a0625baaf",
+"namespacerun__tracking__scan.html#ab9f278303f0f8a807d4870ad69dd1370",
+"namespacesplit__weight__uncertainties__rdf.html#a9bba3b650c2f8d18b977c5e469d2c373",
+"namespacevalidationTools.html#ab1e3a10d6f62999ea06535aee5e6db9c",
+"run__fixedTarget_8py.html",
+"run__simScript_8py.html#ae4fecd5b13b4a6f1aac07254f5c5599f",
+"shipunit_8py.html#a6701ac9914b5cc2824408b69c2be5fcc",
+"structShipMuDIS_1_1CBMSimBranches.html#a845498e045c59c322b886769f74e11da",
+"study__muMSC_8py.html#aba7e32141044f4814a1fb6712863e98b",
+"vetoHit_8cxx.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

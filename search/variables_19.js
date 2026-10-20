@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['y_0',['y',['../structTrackBuffer.html#a76e3d69f5306d69c9cbcb3254f020dd5',1,'TrackBuffer::y'],['../namespacemake__nTuple__Tr.html#a3562a98b75521c312dbf74ba57ba9332',1,'make_nTuple_Tr.y'],['../namespacemake__nTuple__SBT.html#ab46e9a5e01d6b550aa7a5315ba9d81cf',1,'make_nTuple_SBT.y'],['../namespacerun__tracking__scan.html#a60149f5e9c7fe53ba27d5ee50faa64de',1,'run_tracking_scan.y'],['../namespacemakeMuonEM.html#a0d25cc9a190d0bdc64fa5cc1d7533039',1,'makeMuonEM.y'],['../structParticleGunParticle.html#a9656861b789d19e0da8a2320cbc1af83',1,'ParticleGunParticle::Y'],['../classCosmicsGenerator.html#a6be8f1021db23a5cffe07bdef2a9f49e',1,'CosmicsGenerator::y']]],
+  ['y_0',['y',['../structSHiP_1_1ScoringPlane_1_1Plane.html#ad7396771aa8fdd06b29f0b3a1a798084',1,'SHiP::ScoringPlane::Plane::y'],['../namespacemakeMuonEM.html#a0d25cc9a190d0bdc64fa5cc1d7533039',1,'makeMuonEM.y'],['../namespacemake__nTuple__Tr.html#a3562a98b75521c312dbf74ba57ba9332',1,'make_nTuple_Tr.y'],['../namespacemake__nTuple__SBT.html#ab46e9a5e01d6b550aa7a5315ba9d81cf',1,'make_nTuple_SBT.y'],['../namespacerun__tracking__scan.html#a60149f5e9c7fe53ba27d5ee50faa64de',1,'run_tracking_scan.y'],['../structParticleGunParticle.html#a9656861b789d19e0da8a2320cbc1af83',1,'ParticleGunParticle::Y'],['../structTrackBuffer.html#a76e3d69f5306d69c9cbcb3254f020dd5',1,'TrackBuffer::y'],['../classCosmicsGenerator.html#a6be8f1021db23a5cffe07bdef2a9f49e',1,'CosmicsGenerator::y'],['../structUpstreamTagger_1_1Region.html#ae6e79075ef0f864b405bc83cb7a1f7ea',1,'UpstreamTagger::Region::y']]],
   ['y0_5f_1',['y0_',['../structShipFieldMaker_1_1transformInfo.html#a1662a7308aec75088911268cf82c3169',1,'ShipFieldMaker::transformInfo']]],
   ['y_5fdata_2',['y_data',['../classshipVertex_1_1Task.html#a8ca5c8775cc4a7b23568c0eeee8ec0a7',1,'shipVertex::Task']]],
-  ['ybeam_3',['ybeam',['../namespacerunPythia8.html#a5b3558b48027106d182fd3d46514884a',1,'runPythia8']]],
-  ['ybox_4',['yBox',['../classCosmicsGenerator.html#a7cdf63ffe46b0356831c2da709a4b7f9',1,'CosmicsGenerator']]],
-  ['ybox_5ffulldet_5',['ybox_fulldet',['../classUpstreamTagger.html#a8ce3b317da08c7f52ff60792de4a04ae',1,'UpstreamTagger']]],
+  ['yaml_5fconfigs_3',['YAML_CONFIGS',['../namespacegeometry__from__file.html#a95cd91ab64400027db0202d9acb2c451',1,'geometry_from_file']]],
+  ['ybeam_4',['ybeam',['../namespacerunPythia8.html#a5b3558b48027106d182fd3d46514884a',1,'runPythia8']]],
+  ['ybox_5',['yBox',['../classCosmicsGenerator.html#a7cdf63ffe46b0356831c2da709a4b7f9',1,'CosmicsGenerator']]],
   ['ych_6',['Ych',['../classMTCDetHit.html#a71b4a82c51ae60fe4fc20824941dc37f',1,'MTCDetHit']]],
   ['ydimension_7',['YDimension',['../classTarget.html#abc600f1cb78ffac7595bbf362ca151ea',1,'Target']]],
   ['ydistance_8',['Ydistance',['../classTarget.html#a0765eab67cf5bc8c4494ead7cda06f47',1,'Target']]],

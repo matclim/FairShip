@@ -178,6 +178,9 @@ var namespaces_dup =
     [ "configGenieGenerator", "namespaceconfigGenieGenerator.html", [
       [ "config", "namespaceconfigGenieGenerator.html#a6bcca2f64dfe6e1783a59251bb8bacac", null ]
     ] ],
+    [ "conftest", "namespaceconftest.html", [
+      [ "root_with_shipdata", "namespaceconftest.html#ab403d908c73ec825d7749171dbf52e8c", null ]
+    ] ],
     [ "convertEvtCalc", "namespaceconvertEvtCalc.html", [
       [ "check_consistency_infile", "namespaceconvertEvtCalc.html#a8d40f2aa9130a085884c3eb860001f6e", null ],
       [ "convert_file", "namespaceconvertEvtCalc.html#a604c2950656f1d921d56e361f290f9ce", null ],
@@ -275,6 +278,7 @@ var namespaces_dup =
     [ "eveGlobal", "namespaceeveGlobal.html", [
       [ "SHiPDisplay", "namespaceeveGlobal.html#af384e4f875e85dd37b0398e54a393298", null ]
     ] ],
+    [ "event_histogram", "namespaceevent__histogram.html", "namespaceevent__histogram" ],
     [ "eventDisplay", "namespaceeventDisplay.html", "namespaceeventDisplay" ],
     [ "experimental", "namespaceexperimental.html", "namespaceexperimental" ],
     [ "extractMuonsAndUpdateWeight", "namespaceextractMuonsAndUpdateWeight.html", [
@@ -323,6 +327,11 @@ var namespaces_dup =
       [ "weightMbias1GeV", "namespaceextractNeutrinosAndUpdateWeight.html#a255cf9b881f376a23b67633ac2307b83", null ]
     ] ],
     [ "fieldMapTools", "namespacefieldMapTools.html", "namespacefieldMapTools" ],
+    [ "filterEvents", "namespacefilterEvents.html", [
+      [ "load_muon_shield_field", "namespacefilterEvents.html#a794eba20fad6a26cd0739fd0eb8a3f45", null ],
+      [ "load_spectrometer_field", "namespacefilterEvents.html#a390926d80d50147c09e38e6abe532c34", null ],
+      [ "main", "namespacefilterEvents.html#a0faa43b74fffc3df44b1c5b180a49961", null ]
+    ] ],
     [ "genfit", "namespacegenfit.html", "namespacegenfit" ],
     [ "genie_interface", "namespacegenie__interface.html", [
       [ "_merge_env", "namespacegenie__interface.html#ac6e6905f3b30305d16b57fe8d96cbb1e", null ],
@@ -341,8 +350,25 @@ var namespaces_dup =
       [ "PathLike", "namespacegenie__interface.html#a68539ce63930ec8fb7cd576ae839bb04", null ]
     ] ],
     [ "geometry_config", "namespacegeometry__config.html", [
-      [ "create_config", "namespacegeometry__config.html#afb514e222a0f704f678c3b3f465ee7e7", null ],
+      [ "create_config", "namespacegeometry__config.html#a14c64c715c02fde546cf42f7c9d6f09f", null ],
+      [ "set_ecn3_cavern", "namespacegeometry__config.html#a23fa4639bd7834b2b245271c5c1dcd3c", null ],
+      [ "set_upstream_tagger", "namespacegeometry__config.html#a68f8dfd6b8fc305422b155a63db0bdec", null ],
       [ "shield_db", "namespacegeometry__config.html#a4ebc72f6a5c5803cfcc7f6a783c1aaf3", null ]
+    ] ],
+    [ "geometry_from_file", "namespacegeometry__from__file.html", [
+      [ "_define_swap_class", "namespacegeometry__from__file.html#a4343d70f112d7f1fc3e2fa68a08a0428", null ],
+      [ "check_file", "namespacegeometry__from__file.html#a04a46c3c1fb6eb2b52661a6443354076", null ],
+      [ "check_swapped", "namespacegeometry__from__file.html#a15e149c06726d938db03869db1e93e70", null ],
+      [ "check_yaml_configs", "namespacegeometry__from__file.html#ad003da7c4d900ff4a2edc37862a51494", null ],
+      [ "make_swap", "namespacegeometry__from__file.html#a39ee39f2ff59b2dacdc40abf83aa1fa6", null ],
+      [ "stored_yaml_configs", "namespacegeometry__from__file.html#a084611c24c0a258117d0b689d187ec6e", null ],
+      [ "_HELPER", "namespacegeometry__from__file.html#a53f0cacc6428058fca1021a91080bb8c", null ],
+      [ "_swap_class", "namespacegeometry__from__file.html#a689bef891192aef41d4c0dfe5bb7be51", null ],
+      [ "error", "namespacegeometry__from__file.html#ad232dcc15bc0553bad570e1756cabf9a", null ],
+      [ "geofile", "namespacegeometry__from__file.html#ab380ad34fa475b58dddbc9d7b7ba920e", null ],
+      [ "loaded", "namespacegeometry__from__file.html#a8ce2714b9cecdfe3f038fe94e07dafb2", null ],
+      [ "SWAP_NAME", "namespacegeometry__from__file.html#a72281533c8b2d80b6557018be831c881", null ],
+      [ "YAML_CONFIGS", "namespacegeometry__from__file.html#a95cd91ab64400027db0202d9acb2c451", null ]
     ] ],
     [ "geomGeant4", "namespacegeomGeant4.html", [
       [ "_collectVolumeNames", "namespacegeomGeant4.html#aced3292aa39fec0f3597a18f514e402f", null ],
@@ -867,6 +893,11 @@ var namespaces_dup =
       [ "y", "namespacemakeMuonEM.html#a0d25cc9a190d0bdc64fa5cc1d7533039", null ],
       [ "z", "namespacemakeMuonEM.html#ab601c963f2068c0096eee496020b9003", null ]
     ] ],
+    [ "mc_truth", "namespacemc__truth.html", [
+      [ "find_signal_track", "namespacemc__truth.html#a8605c4676444ce9308a2ce341644e4a6", null ],
+      [ "signal_weight", "namespacemc__truth.html#a63363483b009911313c7461c370cb09a", null ],
+      [ "PRIMARY_PROCESS", "namespacemc__truth.html#a08af7d306db5db28d21de7be4774cb5b", null ]
+    ] ],
     [ "mergeMbias", "namespacemergeMbias.html", [
       [ "compare", "namespacemergeMbias.html#a326ee8240121d3b588c15423aab85494", null ],
       [ "fillPart", "namespacemergeMbias.html#a15953eeff46b5dafe7acd734e9273a72", null ],
@@ -903,11 +934,46 @@ var namespaces_dup =
       [ "test", "namespacemuDIS__mergeFiles.html#ac9b6cc3beba4698015a60694a23fb16a", null ],
       [ "h", "namespacemuDIS__mergeFiles.html#a83f94c211fdeec0f62c2f112ef51da13", null ]
     ] ],
+    [ "MuDISGenerator_postProcessing", "namespaceMuDISGenerator__postProcessing.html", [
+      [ "_copy_metadata", "namespaceMuDISGenerator__postProcessing.html#af022bb078db91c9f16ffff36d04e17a5", null ],
+      [ "_dis_events", "namespaceMuDISGenerator__postProcessing.html#a57bf0af5d4c0f19a4f28a9515460ed2c", null ],
+      [ "post_process", "namespaceMuDISGenerator__postProcessing.html#a682170391e99b26004b4ad8cda34f499", null ],
+      [ "_IDENTITY_BRANCHES", "namespaceMuDISGenerator__postProcessing.html#afa33da9ea902f76b9dd5be9b80cb270f", null ],
+      [ "_MARKER", "namespaceMuDISGenerator__postProcessing.html#a9b8f5e5a2de70470dd07d11ef0a80268", null ],
+      [ "_POINT_BRANCHES", "namespaceMuDISGenerator__postProcessing.html#a82258d83f86443ac701572164d80c5f7", null ]
+    ] ],
     [ "plotFieldMap", "namespaceplotFieldMap.html", [
       [ "bending_power", "namespaceplotFieldMap.html#a73a7d0be8506d4b6d74679164628f803", null ],
       [ "draw", "namespaceplotFieldMap.html#a7241ec8d3fd0196ac515a6e31da4f3d0", null ],
       [ "main", "namespaceplotFieldMap.html#a298183f392f89f0d4be895adde10ef17", null ],
       [ "APERTURE", "namespaceplotFieldMap.html#a29b48d8b27572e81759f5db296bf8101", null ]
+    ] ],
+    [ "prepareEvents", "namespaceprepareEvents.html", [
+      [ "action", "namespaceprepareEvents.html#a3f83959717e3ce3cebc85929432eb73c", null ],
+      [ "args", "namespaceprepareEvents.html#a95649be87506c5269e5fd725f436580e", null ],
+      [ "choices", "namespaceprepareEvents.html#a375705f770ae1e24dc5877044fe657c0", null ],
+      [ "default", "namespaceprepareEvents.html#ab3cf929d7e4deb486e8404759d093788", null ],
+      [ "dest", "namespaceprepareEvents.html#ac89c1b104eaef1cb787b0b9afc810102", null ],
+      [ "False", "namespaceprepareEvents.html#a7b929a887a8b11a29f7c27c5afe5fb4a", null ],
+      [ "field_maker", "namespaceprepareEvents.html#a62426835bf3651e22cf31969dd09776c", null ],
+      [ "float", "namespaceprepareEvents.html#a6a4a655c770740a819a505e2ce5f4edb", null ],
+      [ "flush", "namespaceprepareEvents.html#a4bb91148a9bd0c6f570c7aabed55ad2c", null ],
+      [ "gErrorIgnoreLevel", "namespaceprepareEvents.html#a49bdc2a52b52c304b93367f1009c9c36", null ],
+      [ "help", "namespaceprepareEvents.html#a1740073886b8b8a69504bcce361b7f38", null ],
+      [ "int", "namespaceprepareEvents.html#a397dde9049e4562affcd8d01f72aac1e", null ],
+      [ "level", "namespaceprepareEvents.html#a8e5ed8dcb73e441b1b4424a8f0ba10ee", null ],
+      [ "matching_files", "namespaceprepareEvents.html#acc10e03641b5e773b94a9e6152e5b6b0", null ],
+      [ "muDis", "namespaceprepareEvents.html#a811e2c403e2d02703387ddcca297744d", null ],
+      [ "ok", "namespaceprepareEvents.html#abd6c4941a145bc9fb87ae6746dd7d6df", null ],
+      [ "p", "namespaceprepareEvents.html#a2d1e694fe31efc0287cc3e40a1bb71c3", null ],
+      [ "parser", "namespaceprepareEvents.html#a34b73bf680232e555f569e5890af45dd", null ],
+      [ "pattern", "namespaceprepareEvents.html#aa5dc5c7768a5def4f321b5f9ca696edd", null ],
+      [ "pdg", "namespaceprepareEvents.html#a1cd57929cb20de80b23fdfca2ec7b6bf", null ],
+      [ "required", "namespaceprepareEvents.html#abe98112dd23558b7e6bfc8d9123057eb", null ],
+      [ "shield_field", "namespaceprepareEvents.html#a7f546adae41142fa0e12af34996a57a3", null ],
+      [ "shield_path", "namespaceprepareEvents.html#adfc45750434c79ae6380f53687b6142e", null ],
+      [ "theseed", "namespaceprepareEvents.html#a13258919d3ea42910bb902da6d3ea3aa", null ],
+      [ "type", "namespaceprepareEvents.html#a1d0e01732bceb567ad284095d9dca3fd", null ]
     ] ],
     [ "proton_bremsstrahlung", "namespaceproton__bremsstrahlung.html", [
       [ "dNdPdTheta", "namespaceproton__bremsstrahlung.html#ac3747a46ab38964a9676801aa3ca0cc9", null ],
@@ -994,8 +1060,7 @@ var namespaces_dup =
       [ "addHNLdecayChannels", "namespacereadDecayTable.html#a7b20cc3e8df553c9dfbb68addb0e2665", null ],
       [ "load", "namespacereadDecayTable.html#accb3ca4d591c8a297fc406190aa012d1", null ],
       [ "PDGcode", "namespacereadDecayTable.html#a94bdd8639bf7a4e00cb64f1d4d0c820e", null ],
-      [ "configuredDecays", "namespacereadDecayTable.html#ac7b78e10a0805dc3d04baed8475ec3d7", null ],
-      [ "pdg", "namespacereadDecayTable.html#a216e0525d0705b0b1690f178c74c2cf9", null ]
+      [ "configuredDecays", "namespacereadDecayTable.html#ac7b78e10a0805dc3d04baed8475ec3d7", null ]
     ] ],
     [ "rootUtils", "namespacerootUtils.html", [
       [ "assignClonesArrayItem", "namespacerootUtils.html#ae9fb99014f636adbd119f23c5eaf6b5f", null ],
@@ -1005,6 +1070,8 @@ var namespaces_dup =
       [ "checkFileExists", "namespacerootUtils.html#a4e338bc5e188e11be1877ab8fd706a3d", null ],
       [ "checkForBranch", "namespacerootUtils.html#a9d1a57fa6c9b71b21004e66bb1fae7c4", null ],
       [ "errorSummary", "namespacerootUtils.html#a9fad8948a40e9aac00e89f938b0a03af", null ],
+      [ "get_particle", "namespacerootUtils.html#a6fa7b470c587fa9daf3ee30c2b2be4e3", null ],
+      [ "is_known_particle", "namespacerootUtils.html#a135d7bfa10a1e034374497fd828da1b9", null ],
       [ "readHists", "namespacerootUtils.html#a61db3e66b871a770b6bc264b9e3ac33e", null ],
       [ "reportError", "namespacerootUtils.html#ab807114738eb9dfb5fef001e2fa9bc54", null ],
       [ "writeHists", "namespacerootUtils.html#a4288202f324fd0dae890c6208e1b9deb", null ],
@@ -1054,6 +1121,7 @@ var namespaces_dup =
       [ "checkOverlap", "namespacerun__fixedTarget.html#a757a9cdde97d19d35c68251e46cc42b8", null ],
       [ "choices", "namespacerun__fixedTarget.html#abd658b1a487f82668f5db9fc802218b1", null ],
       [ "className", "namespacerun__fixedTarget.html#a1adb7beab2354c8d338e32e6cf8daa47", null ],
+      [ "clones_per_split", "namespacerun__fixedTarget.html#a39a4acf8ad97c2bacd02c9148625d38c", null ],
       [ "conditions", "namespacerun__fixedTarget.html#a62a9948af399f795f01daab99f043429", null ],
       [ "cross_section", "namespacerun__fixedTarget.html#a3df52dc2c722f5f071c210b25264e220", null ],
       [ "cs", "namespacerun__fixedTarget.html#a7c78f606364f1a830180c31f402fabec", null ],
@@ -1113,6 +1181,7 @@ var namespaces_dup =
       [ "sGeo", "namespacerun__fixedTarget.html#af57cff9c8bfaf1a590e1aa0e8c498c28", null ],
       [ "ship_geo", "namespacerun__fixedTarget.html#a3e3246d1e1694b94a0e038535d2baed0", null ],
       [ "ship_geo_kwargs", "namespacerun__fixedTarget.html#a6da492a6b2ce007f57e5a1b618fb40e2", null ],
+      [ "shower_safety_factor", "namespacerun__fixedTarget.html#a838e53c078c81fc6bfbb79f41d49a022", null ],
       [ "sigma_QQ", "namespacerun__fixedTarget.html#a5e380c2810640ae62ab6b75f25037be7", null ],
       [ "simEngine", "namespacerun__fixedTarget.html#a563b28a8253682d6cb4581954d84da5b", null ],
       [ "sink", "namespacerun__fixedTarget.html#a60ef0017045966c045e13d04288ad621", null ],
@@ -1205,8 +1274,12 @@ var namespaces_dup =
       [ "genie_parser", "namespacerun__simScript.html#a893491cd4d054b1dc81038ab02105345", null ],
       [ "Geniegen", "namespacerun__simScript.html#a398412a7d37ba1709a08e7da785209eb", null ],
       [ "GenieOptions", "namespacerun__simScript.html#abb5c7a5b05a93048a8e607f187efb37a", null ],
+      [ "geofile", "namespacerun__simScript.html#a5e79a75be52139a3f0705a0764ff7640", null ],
       [ "geofile_name", "namespacerun__simScript.html#a71febbcacc1bfb3c737de2f3599e1817", null ],
+      [ "geometry_options", "namespacerun__simScript.html#a8f9ff0a9bb830ce5558944c89ef3f593", null ],
+      [ "geometryBuiltWithFairShip", "namespacerun__simScript.html#ae98893db8e1ffe8e4ee5a54ec73ef6f6", null ],
       [ "gErrorIgnoreLevel", "namespacerun__simScript.html#a4a2c7d62cdeabab2c2a9e10cc0301312", null ],
+      [ "given", "namespacerun__simScript.html#afa13cafe7e20562d6467916817d7b940", null ],
       [ "gMC", "namespacerun__simScript.html#a671e51e119017a06d69c162c6e24b051", null ],
       [ "gst", "namespacerun__simScript.html#aa3e34199d5fbf0a1ded3a5a739c356da", null ],
       [ "gst_copy", "namespacerun__simScript.html#a7d8ddabaf399fe627d86b2c91119fb14", null ],
@@ -1242,6 +1315,7 @@ var namespaces_dup =
       [ "n_EVENTS", "namespacerun__simScript.html#a0ad5a8757666a018ab23b8e7f5eaeca2", null ],
       [ "name", "namespacerun__simScript.html#a0b223972f3cecde5ffa255bf68198a5e", null ],
       [ "nargs", "namespacerun__simScript.html#aa922f75e6c8c8de037a8b802066c2496", null ],
+      [ "nDIS", "namespacerun__simScript.html#a997fa59dcbe57e8642a2244f347d6500", null ],
       [ "nEvents", "namespacerun__simScript.html#ac224f2a2d08b71115bf77bb3b3f3dea3", null ],
       [ "new_tree", "namespacerun__simScript.html#a4435f2e074882181ff7ce09cef9ef113", null ],
       [ "newFileSummary", "namespacerun__simScript.html#aa57c176f480c3a1677f8c1f444598de6", null ],
@@ -1262,6 +1336,7 @@ var namespaces_dup =
       [ "pg_parser", "namespacerun__simScript.html#a8c915c1feda8cda0b474712da99ccadb", null ],
       [ "pointContainers", "namespacerun__simScript.html#a415c7f13d139ee01e225b3f0a781eaf7", null ],
       [ "primGen", "namespacerun__simScript.html#aaf5d00485deac08f339575f5765fb79e", null ],
+      [ "probe", "namespacerun__simScript.html#adc84bf2f5f0738bdfca75ffc5dfb3f8b", null ],
       [ "pythia8", "namespacerun__simScript.html#a8fb1d87868691be90334fae6651ab73d", null ],
       [ "rc1", "namespacerun__simScript.html#a7761e3105d78ab195878b40089abdfa1", null ],
       [ "rc2", "namespacerun__simScript.html#a8e3710513bb2a7ae510a9326d0bf6de5", null ],
@@ -1468,7 +1543,9 @@ var namespaces_dup =
     ] ],
     [ "saveBasicParameters", "namespacesaveBasicParameters.html", [
       [ "execute", "namespacesaveBasicParameters.html#a59e9b134da12cfd065718f6ac6a08e4b", null ],
-      [ "retrieveGitTags", "namespacesaveBasicParameters.html#ab4a697c36be41496c6d12f0e1686a389", null ]
+      [ "libraryPath", "namespacesaveBasicParameters.html#a4b4d400f18bd29b55a47a2269d81690d", null ],
+      [ "retrieveGitTags", "namespacesaveBasicParameters.html#ab4a697c36be41496c6d12f0e1686a389", null ],
+      [ "versionFromHeader", "namespacesaveBasicParameters.html#a6cc190ef1600d8c0aec3ea3a7d8e055e", null ]
     ] ],
     [ "SBTDetector", "namespaceSBTDetector.html", "namespaceSBTDetector" ],
     [ "SciFiMapping", "namespaceSciFiMapping.html", "namespaceSciFiMapping" ],
@@ -1484,7 +1561,7 @@ var namespaces_dup =
       [ "ImpactParameter", "namespaceShipAna.html#a9fd214635803d1754bb70d65b6c28665", null ],
       [ "isInFiducial", "namespaceShipAna.html#af21cccbd48480f3b1d8f0b63da03502f", null ],
       [ "makePlots", "namespaceShipAna.html#a1ed05d17b9b3ae35de0634df939a1e6c", null ],
-      [ "match2HNL", "namespaceShipAna.html#adc991dd9fb680ae141ccaf7d2c1c2c64", null ],
+      [ "match2HNL", "namespaceShipAna.html#a68e11b162bfe00be318b9bc149895b93", null ],
       [ "myEventLoop", "namespaceShipAna.html#aac6dc163c17f64cf4fef3d96999a9c2d", null ],
       [ "myVertex", "namespaceShipAna.html#aa726b955ef95f4acb56fa79e3f976d2f", null ],
       [ "RedoVertexing", "namespaceShipAna.html#a365f177c7bf68e9ef076d53d9eef85b6", null ],
@@ -1531,23 +1608,45 @@ var namespaces_dup =
       [ "vetoDets", "namespaceShipAna.html#a474780f2864445277c34ddc7ddc8828b", null ],
       [ "volDict", "namespaceShipAna.html#a23ccb7a304d314d18d7e31877052b68a", null ]
     ] ],
+    [ "ShipCavernLayout", "namespaceShipCavernLayout.html", [
+      [ "kECN3FloorY", "namespaceShipCavernLayout.html#a111842daf4bf2565f8752d5961b7655e", null ],
+      [ "kECN3LeftX", "namespaceShipCavernLayout.html#a3b0071f51df8655b41189495a7fef8bd", null ],
+      [ "kECN3RightX", "namespaceShipCavernLayout.html#a3a9813ccb832dba985b4f70b2f19d472", null ],
+      [ "kECN3SpringlineY", "namespaceShipCavernLayout.html#ae758928e024592cd85ea3d41ad6860e7", null ],
+      [ "kStairFloorY", "namespaceShipCavernLayout.html#a3f6809cf37aee516a8a05a79acaaf5db", null ],
+      [ "kTCC8CeilingY", "namespaceShipCavernLayout.html#ad50f64adb792c0e622c979318c89b5d0", null ],
+      [ "kTCC8FloorY", "namespaceShipCavernLayout.html#afe558055f4f4c35f814ac5e503768f0d", null ],
+      [ "kTCC8LeftX", "namespaceShipCavernLayout.html#a882ff87bb00eafdc33047035caf373b3", null ],
+      [ "kTCC8RightX", "namespaceShipCavernLayout.html#a847ad4f95a340db7ed83fe62f0e55ee9", null ]
+    ] ],
     [ "shipDet_conf", "namespaceshipDet__conf.html", [
-      [ "configure", "namespaceshipDet__conf.html#a7f232397871353ce80c1ea03eb15bd20", null ],
+      [ "_axis_cells", "namespaceshipDet__conf.html#afec42c5b1e2dc5fbc4af7a40a140a76b", null ],
+      [ "_small_tile_areas", "namespaceshipDet__conf.html#aaaa42dac4c132a8a35e10c2344a1b349", null ],
+      [ "check_upstream_tagger_map", "namespaceshipDet__conf.html#aefe20d186538283f7aa113c21b347f39", null ],
+      [ "configure", "namespaceshipDet__conf.html#a6e3eaea419c04a40644184c1c4bd7ae0", null ],
       [ "configure_snd_mtc", "namespaceshipDet__conf.html#aa4ac8d6cef9fc6657dedbd2090cf8f13", null ],
       [ "configure_snd_old", "namespaceshipDet__conf.html#a2fecde7180ef767c70ab332f3e6fd134", null ],
       [ "configure_snd_siliconTarget", "namespaceshipDet__conf.html#a840ad4a7a2937c9e65146af686f32d6b", null ],
       [ "configure_strawtubes", "namespaceshipDet__conf.html#a2f1dbf4e6c24e237425ed38e92d377db", null ],
+      [ "configure_upstream_tagger", "namespaceshipDet__conf.html#a3801fceafab5b1b123396da08cf2651a", null ],
       [ "configure_veto", "namespaceshipDet__conf.html#a33cb48af606d69d43984820ec74cbe1f", null ],
+      [ "generate_upstream_tagger_map", "namespaceshipDet__conf.html#a3921412c2afdb11bfbb392eaa2de241a", null ],
       [ "detectorList", "namespaceshipDet__conf.html#a0507a6f94174d43157cb96b2984eb98d", null ]
     ] ],
     [ "shipDigiReco", "namespaceshipDigiReco.html", "namespaceshipDigiReco" ],
     [ "shipgen", "namespaceshipgen.html", [
-      [ "MeanMaterialBudget", "namespaceshipgen.html#ac85d3b1e8d74de7b65eee39a98e92c1b", null ]
+      [ "MeanMaterialBudget", "namespaceshipgen.html#ac85d3b1e8d74de7b65eee39a98e92c1b", null ],
+      [ "NuclearCrossSection_mbarn", "namespaceshipgen.html#a697900e14010bb7c6ec21c4130c4574b", null ],
+      [ "PythiaLengthToCm", "namespaceshipgen.html#abf37dd718f47d2835452543cb4b3f0a1", null ],
+      [ "PythiaTimeToS", "namespaceshipgen.html#a1712d3106f13d600a33e5016f447f592", null ],
+      [ "kCLightCmPerS", "namespaceshipgen.html#ab487270fe6cf7792379f1564fb750e57", null ],
+      [ "kPythiaLengthPerCm", "namespaceshipgen.html#ac34c2223302691f3db2e078530598bba", null ]
     ] ],
     [ "ShipGeo", "namespaceShipGeo.html", [
       [ "InitMedium", "namespaceShipGeo.html#a41fa6e1cd4e92f644524675c6850e934", null ]
     ] ],
     [ "ShipGeoConfig", "namespaceShipGeoConfig.html", "namespaceShipGeoConfig" ],
+    [ "ShipMuDIS", "namespaceShipMuDIS.html", "namespaceShipMuDIS" ],
     [ "shipPatRec", "namespaceshipPatRec.html", [
       [ "_prepare_output", "namespaceshipPatRec.html#abad752ad62262ead20afad027ff603e5", null ],
       [ "artificial_retina_pat_rec_stereo_views", "namespaceshipPatRec.html#a7bd6836b680505a30ee0d503878636cb", null ],
@@ -1637,7 +1736,22 @@ var namespaces_dup =
       [ "parser", "namespaceshipStrawTracking.html#a6f1c8ab4a8627d83bd87a950231721c6", null ],
       [ "required", "namespaceshipStrawTracking.html#a33f41ada450d677435ffd880e7462d3a", null ]
     ] ],
-    [ "ShipUnit", "namespaceShipUnit.html", null ],
+    [ "ShipUnit", "namespaceShipUnit.html", [
+      [ "c_light", "namespaceShipUnit.html#aa5c80d1a788735fe9fd41b509583437b", null ],
+      [ "cm", "namespaceShipUnit.html#a265f40d0ffca1af0d38fe9a050c98bcf", null ],
+      [ "gauss", "namespaceShipUnit.html#a334f58e18b995ee78fa96a1c69c0bfba", null ],
+      [ "GeV", "namespaceShipUnit.html#aed43d63d5e6d980f22bc345f7a562011", null ],
+      [ "keV", "namespaceShipUnit.html#ad57422e4724115feacf1cabfb637e3a5", null ],
+      [ "kilogauss", "namespaceShipUnit.html#aeb2434130d4f4fe7921aa564c2965294", null ],
+      [ "km", "namespaceShipUnit.html#a6913b7e3b62fb09e1a1fcdb3a1f7c258", null ],
+      [ "m", "namespaceShipUnit.html#a7b82ae8775009208066598546951dd22", null ],
+      [ "MeV", "namespaceShipUnit.html#a355ccfd81a9820e7e0df4c8f7ca6bbb8", null ],
+      [ "mm", "namespaceShipUnit.html#a644590da60ab4efe07fbda3a260e5407", null ],
+      [ "ns", "namespaceShipUnit.html#ac17805e2154634b45e0493e800208b29", null ],
+      [ "s", "namespaceShipUnit.html#af5da50ee86db44fd81351c6c3a3dcf06", null ],
+      [ "tesla", "namespaceShipUnit.html#adae44b3580098be2b6f2c6d514dc72dd", null ],
+      [ "um", "namespaceShipUnit.html#a19c69dc056a268aa660dfce12af29f39", null ]
+    ] ],
     [ "shipunit", "namespaceshipunit.html", [
       [ "alpha_rcl2", "namespaceshipunit.html#a561928bad4973c63197de654cd92f007", null ],
       [ "ampere", "namespaceshipunit.html#a899bfcfc1e198fac90b788905bcf91b3", null ],
@@ -1790,10 +1904,48 @@ var namespaces_dup =
     [ "skim_muonback_smoke", "namespaceskim__muonback__smoke.html", [
       [ "main", "namespaceskim__muonback__smoke.html#acd265e66314c1a63a4f8d835f99a00f0", null ]
     ] ],
+    [ "split_provenance", "namespacesplit__provenance.html", "namespacesplit__provenance" ],
+    [ "split_weight_uncertainties", "namespacesplit__weight__uncertainties.html", [
+      [ "log_edges", "namespacesplit__weight__uncertainties.html#acbb3b44341381f4f2e1b333b1711de44", null ],
+      [ "main", "namespacesplit__weight__uncertainties.html#a35bba978ee4e1cae1e7bdd8371d4f4ac", null ],
+      [ "make_parser", "namespacesplit__weight__uncertainties.html#a4ddc49727d42c09a25270a6ced7b4d62", null ],
+      [ "print_table", "namespacesplit__weight__uncertainties.html#aa3aa89834d816b4c46e9e0434206c3ee", null ]
+    ] ],
+    [ "split_weight_uncertainties_rdf", "namespacesplit__weight__uncertainties__rdf.html", [
+      [ "complete_element_class", "namespacesplit__weight__uncertainties__rdf.html#af99313e5abf9234b30d6d34976fcfaf2", null ],
+      [ "main", "namespacesplit__weight__uncertainties__rdf.html#a9bba3b650c2f8d18b977c5e469d2c373", null ]
+    ] ],
     [ "strawtubesDetector", "namespacestrawtubesDetector.html", "namespacestrawtubesDetector" ],
     [ "study_GammaConv", "namespacestudy__GammaConv.html", "namespacestudy__GammaConv" ],
     [ "study_muMSC", "namespacestudy__muMSC.html", "namespacestudy__muMSC" ],
     [ "study_thinTarget", "namespacestudy__thinTarget.html", "namespacestudy__thinTarget" ],
+    [ "test_cavern_layout", "namespacetest__cavern__layout.html", [
+      [ "layout_constants", "namespacetest__cavern__layout.html#a2283051e76f1aa7a8c82cac658205f54", null ],
+      [ "test_ecn3_cross_section_matches_ship_cave", "namespacetest__cavern__layout.html#afdbe73d6330b1f4784ffae01cdab25d5", null ],
+      [ "LAYOUT", "namespacetest__cavern__layout.html#a70173db19d945df90fdeece9a215b7ef", null ],
+      [ "QUANTITIES", "namespacetest__cavern__layout.html#a0de441203533b37132b2e927eb08380b", null ]
+    ] ],
+    [ "test_event_histogram", "namespacetest__event__histogram.html", [
+      [ "correlated_sample", "namespacetest__event__histogram.html#a412d8d079290903a55507df1ceade99b", null ],
+      [ "fill", "namespacetest__event__histogram.html#a36f39f9bf878fdda6f0624b6c1b106a7", null ],
+      [ "fill_cpp", "namespacetest__event__histogram.html#a7df49286ed831780dbd431ca3eceaff3", null ],
+      [ "root_with_shipdata", "namespacetest__event__histogram.html#af84057bbcd790c4a55c51ac589b3237c", null ],
+      [ "state", "namespacetest__event__histogram.html#a2d0b11f1b378a771928b160b98e1e172", null ],
+      [ "test_bootstrap_reproduces_errors", "namespacetest__event__histogram.html#af74c7a6bdf611a50cde3665195093026", null ],
+      [ "test_covariance_diagonal_is_variance", "namespacetest__event__histogram.html#aec811b3738292443644c1d97e2fd462b", null ],
+      [ "test_flows_are_kept_out_of_range", "namespacetest__event__histogram.html#acb26eeced2b101934fd950f4ba9c2c54", null ],
+      [ "test_hadd_of_different_settings_is_refused", "namespacetest__event__histogram.html#a8ee1102e7232d50679ffffaa88984f63", null ],
+      [ "test_incompatible_merge_is_refused", "namespacetest__event__histogram.html#aebeb3b39336236b36a6f24a922dc63d2", null ],
+      [ "test_matches_per_event_formula", "namespacetest__event__histogram.html#ad092e2b1c6b4812768a5367b6b518e42", null ],
+      [ "test_merge_equals_single_accumulator", "namespacetest__event__histogram.html#ae821c892435392ca4e6a4956ac4956fd", null ],
+      [ "test_merge_with_open_event_is_an_error", "namespacetest__event__histogram.html#ae0401a901249029a23bfbdba5d04bde1", null ],
+      [ "test_naive_error_is_too_small_for_clones", "namespacetest__event__histogram.html#a087d1c4f8d17d0f325df74772971903c", null ],
+      [ "test_no_events_gives_zeros", "namespacetest__event__histogram.html#aa457cc8a82785dbb2f92673de73aa5dc", null ],
+      [ "test_open_event_is_an_error", "namespacetest__event__histogram.html#ab536b70c60b8efec49d403fa789351cd", null ],
+      [ "test_replica_weights_are_poisson_one", "namespacetest__event__histogram.html#ace1591cf2e5b047ec02d2e789fa56be0", null ],
+      [ "test_root_round_trip_and_cpp_agree", "namespacetest__event__histogram.html#a6f8c14af93f4ca36660c12c6f46828e8", null ],
+      [ "EDGES", "namespacetest__event__histogram.html#a64eae27ed22609bb61c980fc25e38f5a", null ]
+    ] ],
     [ "test_field_maps", "namespacetest__field__maps.html", [
       [ "_discover", "namespacetest__field__maps.html#a3a4e1e7eaf2d89b0bd71c94d9c6935d4", null ],
       [ "_is_lfs_pointer", "namespacetest__field__maps.html#a4c7564c4c98f9d9cc32048fc18a7e3dd", null ],
@@ -1830,9 +1982,43 @@ var namespaces_dup =
       [ "test_sigma_QQ_scales_the_charm_reference_only", "namespacetest__heavyFlavourScaling.html#a3a1d343bed1364e5a0ea96d7074279e0", null ],
       [ "test_w_preset_scales_up", "namespacetest__heavyFlavourScaling.html#a1f5951fe107152708e93822485ac2e2e", null ]
     ] ],
+    [ "test_mudis_postprocessing", "namespacetest__mudis__postprocessing.html", [
+      [ "inputs", "namespacetest__mudis__postprocessing.html#a5eeef6da467c022260daa2c594cd8018", null ],
+      [ "make_point", "namespacetest__mudis__postprocessing.html#a9fcaf49d016b3178f1b8e3276a860356", null ],
+      [ "read_events", "namespacetest__mudis__postprocessing.html#a0c46f7e3384abb48f0356db1c2ffcdc3", null ],
+      [ "test_material_labels_used_by_the_test_exist", "namespacetest__mudis__postprocessing.html#a6e8171918557ba3b5aa26b57a44115c2", null ],
+      [ "test_mismatch_raises_and_leaves_output_unchanged", "namespacetest__mudis__postprocessing.html#a3d6117ea72e4855042c3e1d06b326b29", null ],
+      [ "test_more_output_events_than_interactions_raises", "namespacetest__mudis__postprocessing.html#a6184b06d7958970465f549fce8dbc8ec", null ],
+      [ "test_restores_hits_upstream_of_each_vertex", "namespacetest__mudis__postprocessing.html#a85f072ac6e5ca381f49ceafe39f57a9c", null ],
+      [ "test_start_entry_counts_across_input_files", "namespacetest__mudis__postprocessing.html#aeac00b42f415e69b3317995b0eff3419", null ],
+      [ "write_input", "namespacetest__mudis__postprocessing.html#a7f2535b669533ba5587538e596e45a61", null ],
+      [ "write_output", "namespacetest__mudis__postprocessing.html#a2996a34b73456d517b0bea45e4bc02ec", null ],
+      [ "FIRST_FILE", "namespacetest__mudis__postprocessing.html#aca93e5793acf393b05a7f37d4ae31132", null ],
+      [ "MATERIALS", "namespacetest__mudis__postprocessing.html#aaa0b736471f94068ebf4d2624bed5331", null ],
+      [ "MUON_MASS", "namespacetest__mudis__postprocessing.html#a62f85aa42b316cb1e14d92f66b40ebc1", null ],
+      [ "REPLAY_FROM_START", "namespacetest__mudis__postprocessing.html#a5b65ed1d6ac463808cc5b5552e91cdb0", null ],
+      [ "ROOT", "namespacetest__mudis__postprocessing.html#a3018b5eaa47c5056e9649ae4370a5bab", null ],
+      [ "SECOND_FILE", "namespacetest__mudis__postprocessing.html#acf8965596c1fc710bc339a49e18385d5", null ],
+      [ "SIMULATED_Z", "namespacetest__mudis__postprocessing.html#aa879d04453cd82dd4e17088918e2f9e0", null ]
+    ] ],
+    [ "test_signal_particle", "namespacetest__signal__particle.html", "namespacetest__signal__particle" ],
+    [ "test_split_provenance", "namespacetest__split__provenance.html", [
+      [ "_desplit_rates", "namespacetest__split__provenance.html#a5ab9d074fc57591948137c93566d75f1", null ],
+      [ "event", "namespacetest__split__provenance.html#a0dfcae32f95d361d645257c6b37cb510", null ],
+      [ "synthetic_event", "namespacetest__split__provenance.html#a443cd267a016c07b04a416b5a1a2bf45", null ],
+      [ "test_alternatives_of_one_decay_are_incompatible", "namespacetest__split__provenance.html#adb63fec9ba8e03a9356dabe8d8f96bab", null ],
+      [ "test_decay_versus_survivor_line_follows_time", "namespacetest__split__provenance.html#a2bc22a5758a4e9673cc75d76eccccbfd", null ],
+      [ "test_desplit_is_reproducible", "namespacetest__split__provenance.html#a745b2c1093855638c133abc26e7f2092", null ],
+      [ "test_desplit_reproduces_weights_and_pair_weights", "namespacetest__split__provenance.html#a2eaf2ad5ae17c4e156d04a751abb5692", null ],
+      [ "test_from_tracks_reads_ship_mc_track", "namespacetest__split__provenance.html#a28a356bd5ba08013d3557d41b0b5d5b0", null ],
+      [ "test_independent_splits_and_siblings_are_compatible", "namespacetest__split__provenance.html#a9f45e38205df4d44c518bc6310b70418", null ],
+      [ "test_pair_weights_by_hand", "namespacetest__split__provenance.html#a51071a056c2f2a9d3592b4b1099f3190", null ],
+      [ "test_pruning_does_not_change_the_answer", "namespacetest__split__provenance.html#abc4de2e78fdad5f4c901949f9c80bb49", null ],
+      [ "G4", "namespacetest__split__provenance.html#a693a413e0f44dbcba32ddae90e26de30", null ],
+      [ "PRUNED", "namespacetest__split__provenance.html#a32ae21fa0c40d77990c37ffe8f999f46", null ]
+    ] ],
     [ "timeDetector", "namespacetimeDetector.html", "namespacetimeDetector" ],
     [ "TrackExtrapolateTool", "namespaceTrackExtrapolateTool.html", [
-      [ "cmp", "namespaceTrackExtrapolateTool.html#ab8db142297238572f1496a88dcb73c28", null ],
       [ "extrapolateToPlane", "namespaceTrackExtrapolateTool.html#ac357e10f3671079a5b9c5706b564b421", null ],
       [ "minNdf", "namespaceTrackExtrapolateTool.html#a88649c5e9feda4744213d5c7a41a94ad", null ],
       [ "parallelToZ", "namespaceTrackExtrapolateTool.html#a1104e7a5752dd65cba8fc8bdb76a5ce5", null ],
@@ -1840,6 +2026,9 @@ var namespaces_dup =
       [ "z_ecal", "namespaceTrackExtrapolateTool.html#aeb68a90b815acb1e2f1453cb90bf5b60", null ]
     ] ],
     [ "tracking_benchmark", "namespacetracking__benchmark.html", "namespacetracking__benchmark" ],
+    [ "ubt_hits_example", "namespaceubt__hits__example.html", [
+      [ "main", "namespaceubt__hits__example.html#adeefb98a04762aa36dd1df08bd6b68e3", null ]
+    ] ],
     [ "UpstreamTaggerDetector", "namespaceUpstreamTaggerDetector.html", "namespaceUpstreamTaggerDetector" ],
     [ "validationTools", "namespacevalidationTools.html", [
       [ "_collect_generator_stats", "namespacevalidationTools.html#a3ee16b929237453c782ac8f2e112ee8a", null ],
