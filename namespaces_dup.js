@@ -1,12 +1,5 @@
 var namespaces_dup =
 [
-    [ "ACTSReco", "namespaceACTSReco.html", [
-      [ "runTracking", "namespaceACTSReco.html#a5a6b305b26347c412e74c3bf7c0bb680", null ],
-      [ "currentPath", "namespaceACTSReco.html#aaad011aa4dbfc91687e4c37d0d3bc50e", null ],
-      [ "fgeo", "namespaceACTSReco.html#aff51101f260e205ff8f6b0f0926c757c", null ],
-      [ "ShipGeo", "namespaceACTSReco.html#a88c4fd607032ca29aaa7e2dcf9554f1c", null ],
-      [ "sourcePath", "namespaceACTSReco.html#a133e2ecfa0812c9dad82343683ae64de", null ]
-    ] ],
     [ "add_muonresponse", "namespaceadd__muonresponse.html", [
       [ "inspect_file", "namespaceadd__muonresponse.html#a379e276fffa8319443f49b2249b754f2", null ],
       [ "modify_file", "namespaceadd__muonresponse.html#a29b72ac3853266c162e109e30b028287", null ],
@@ -123,6 +116,23 @@ var namespaces_dup =
       [ "main", "namespaceanalysis__example.html#a37197f68a23160081ca58a0805e4c527", null ]
     ] ],
     [ "BaseDetector", "namespaceBaseDetector.html", "namespaceBaseDetector" ],
+    [ "calo_scoring_plane_pid_example", "namespacecalo__scoring__plane__pid__example.html", [
+      [ "args", "namespacecalo__scoring__plane__pid__example.html#ae8a1c4d6b044965381106b28adcf7d90", null ],
+      [ "default", "namespacecalo__scoring__plane__pid__example.html#a7505e230f1e5c07ee5a686225c9c2755", null ],
+      [ "f", "namespacecalo__scoring__plane__pid__example.html#acbae59de564979e119cfd20a3285a787", null ],
+      [ "help", "namespacecalo__scoring__plane__pid__example.html#a843a0bc14688c530543a97e74e98d0d8", null ],
+      [ "name", "namespacecalo__scoring__plane__pid__example.html#a33cc14130de3283cf2cce7c78b91001f", null ],
+      [ "parser", "namespacecalo__scoring__plane__pid__example.html#a15f581e9ff64d818e2f99b6521b52609", null ],
+      [ "pid", "namespacecalo__scoring__plane__pid__example.html#af3f45e8a845461ad662709cc8cf0b506", null ],
+      [ "required", "namespacecalo__scoring__plane__pid__example.html#a1e48e0ba33f81830d4fde85172ee542c", null ],
+      [ "rng", "namespacecalo__scoring__plane__pid__example.html#afc4a60dfbda1252041b740e32bd378cd", null ],
+      [ "table", "namespacecalo__scoring__plane__pid__example.html#a9ff073bd98c820214c7cfe1d1e2daa0b", null ],
+      [ "tree", "namespacecalo__scoring__plane__pid__example.html#a685b8d93a9831f9ca83763ef3b8ee3c6", null ],
+      [ "True", "namespacecalo__scoring__plane__pid__example.html#ab2fbdc986109f21ef45948258db2032c", null ],
+      [ "true_species", "namespacecalo__scoring__plane__pid__example.html#adc2ef85019aa7a72fb4d4bb2e5d1f035", null ]
+    ] ],
+    [ "CaloScoringPlaneDetector", "namespaceCaloScoringPlaneDetector.html", "namespaceCaloScoringPlaneDetector" ],
+    [ "caloScoringPlanePID", "namespacecaloScoringPlanePID.html", "namespacecaloScoringPlanePID" ],
     [ "canonicaliseFieldMap", "namespacecanonicaliseFieldMap.html", [
       [ "checksum", "namespacecanonicaliseFieldMap.html#af0e2677b8c4e0ac366726b6d940dd0d6", null ],
       [ "describe", "namespacecanonicaliseFieldMap.html#a9bc5008d10df5cb547815292de620073", null ],
@@ -130,6 +140,12 @@ var namespaces_dup =
       [ "main", "namespacecanonicaliseFieldMap.html#a9d9f2eeb3d9dde2f6351198f2d830a32", null ],
       [ "resolve_order", "namespacecanonicaliseFieldMap.html#aee39c64be201696ec81ad442db44ea4d", null ],
       [ "DIVERGENCE_MARGIN", "namespacecanonicaliseFieldMap.html#a66fbe4aa79e85762d10a11abcc0a2c7e", null ]
+    ] ],
+    [ "check_muonback_plane", "namespacecheck__muonback__plane.html", [
+      [ "close", "namespacecheck__muonback__plane.html#a0c90849dbd2e313477de0d28da899464", null ],
+      [ "input_muons", "namespacecheck__muonback__plane.html#ad8a0e67815b6b34d25a66f136d48efbe", null ],
+      [ "main", "namespacecheck__muonback__plane.html#ab54bb1e6c24fc3fe29ca558a8601f370", null ],
+      [ "TOL", "namespacecheck__muonback__plane.html#a36d742e5474dc34d7ca7cfe9adb47a14", null ]
     ] ],
     [ "checkMagFields", "namespacecheckMagFields.html", [
       [ "run", "namespacecheckMagFields.html#a65e69e17f1b05eb283a8bb6d5d695249", null ]
@@ -179,6 +195,7 @@ var namespaces_dup =
       [ "config", "namespaceconfigGenieGenerator.html#a6bcca2f64dfe6e1783a59251bb8bacac", null ]
     ] ],
     [ "conftest", "namespaceconftest.html", [
+      [ "root_with_calo_scoring_plane", "namespaceconftest.html#a873bd6af9ab4276a95bdb81992054fce", null ],
       [ "root_with_shipdata", "namespaceconftest.html#ab403d908c73ec825d7749171dbf52e8c", null ]
     ] ],
     [ "convertEvtCalc", "namespaceconvertEvtCalc.html", [
@@ -206,11 +223,6 @@ var namespaces_dup =
       [ "createTextMap", "namespaceconvertRALMap.html#a3fc83a2a7d80500e68ade077c1d2d61e", null ],
       [ "formatNumber", "namespaceconvertRALMap.html#a6ccc94556d4744636a48f5e3e967cd36", null ],
       [ "run", "namespaceconvertRALMap.html#a58a18ef491c14bf6d5b39d788b9cf9f9", null ]
-    ] ],
-    [ "convertToACTS", "namespaceconvertToACTS.html", [
-      [ "main", "namespaceconvertToACTS.html#abb41a5cf7ecd01213fd3f40fbb9a8ca9", null ],
-      [ "gErrorIgnoreLevel", "namespaceconvertToACTS.html#a33553589a15038ae28605f544a475772", null ],
-      [ "PDG", "namespaceconvertToACTS.html#a424dbe697cd784b823f4471dd26663e4", null ]
     ] ],
     [ "convertTreeToRNTuple", "namespaceconvertTreeToRNTuple.html", [
       [ "convert_tree_to_rntuple", "namespaceconvertTreeToRNTuple.html#a09a4ea912ab6ed66a66c0229e171ae17", null ],
@@ -1062,6 +1074,9 @@ var namespaces_dup =
       [ "PDGcode", "namespacereadDecayTable.html#a94bdd8639bf7a4e00cb64f1d4d0c820e", null ],
       [ "configuredDecays", "namespacereadDecayTable.html#ac7b78e10a0805dc3d04baed8475ec3d7", null ]
     ] ],
+    [ "recoConstants", "namespacerecoConstants.html", [
+      [ "MIN_HITS_PER_TRACK", "namespacerecoConstants.html#a109af16d599773d192fd0a73e6ba94c0", null ]
+    ] ],
     [ "rootUtils", "namespacerootUtils.html", [
       [ "assignClonesArrayItem", "namespacerootUtils.html#ae9fb99014f636adbd119f23c5eaf6b5f", null ],
       [ "bookCanvas", "namespacerootUtils.html#aea2713c1fd3249a6dd7ea82c6ccc8ef5", null ],
@@ -1074,39 +1089,11 @@ var namespaces_dup =
       [ "is_known_particle", "namespacerootUtils.html#a135d7bfa10a1e034374497fd828da1b9", null ],
       [ "readHists", "namespacerootUtils.html#a61db3e66b871a770b6bc264b9e3ac33e", null ],
       [ "reportError", "namespacerootUtils.html#ab807114738eb9dfb5fef001e2fa9bc54", null ],
+      [ "stage1AbsorberFieldOff", "namespacerootUtils.html#a466b284f4fe9af02843158cc76250935", null ],
       [ "writeHists", "namespacerootUtils.html#a4288202f324fd0dae890c6208e1b9deb", null ],
       [ "_error_log", "namespacerootUtils.html#af04f8d0c34113948aacb4ce59163ce02", null ]
     ] ],
     [ "rpvsusy", "namespacerpvsusy.html", "namespacerpvsusy" ],
-    [ "run_ACTSTracking", "namespacerun__ACTSTracking.html", [
-      [ "action", "namespacerun__ACTSTracking.html#afb76210fc78f0dc6654161d27b5e3892", null ],
-      [ "choices", "namespacerun__ACTSTracking.html#a2be79bc84a594675cc05cc2ffb243d85", null ],
-      [ "default", "namespacerun__ACTSTracking.html#a0f1852307234764813c8d5b0b699edde", null ],
-      [ "dest", "namespacerun__ACTSTracking.html#a0446f743bb7c68a472aa8b14eb84afcc", null ],
-      [ "detector", "namespacerun__ACTSTracking.html#a704b24a2f1434d8e701691b181f73a67", null ],
-      [ "DQM", "namespacerun__ACTSTracking.html#ab4132b0575d937e226784acc7c66b0f5", null ],
-      [ "False", "namespacerun__ACTSTracking.html#a9c9f2b602a14afe7eada8b6cc9a1fbac", null ],
-      [ "fTree", "namespacerun__ACTSTracking.html#a2efd7eb3251602f46cf2987825ef6d17", null ],
-      [ "fullpath", "namespacerun__ACTSTracking.html#a419db05221da45d9cd440efeba752722", null ],
-      [ "geoFile", "namespacerun__ACTSTracking.html#a4528b9c9df0a87dbad855fe6cdd82d92", null ],
-      [ "help", "namespacerun__ACTSTracking.html#acfe3e7df7c0e44c4af0c43c1df5ab724", null ],
-      [ "inFile", "namespacerun__ACTSTracking.html#a5f50267a03dcbf057998ae2735e5540c", null ],
-      [ "inputFile", "namespacerun__ACTSTracking.html#a644639bb4a0262c985c8ad859245e831", null ],
-      [ "int", "namespacerun__ACTSTracking.html#ae2648259c10b1cdb180ebf92eb72690c", null ],
-      [ "minHits", "namespacerun__ACTSTracking.html#ad88454cbef3c98ab636f60341289f2b4", null ],
-      [ "minPt", "namespacerun__ACTSTracking.html#a5ec29eab8862cd79531eb8d33218d5d7", null ],
-      [ "nEvents", "namespacerun__ACTSTracking.html#ae53a95e20963a6302fd64e695c1c779a", null ],
-      [ "options", "namespacerun__ACTSTracking.html#af86a6db8f1fd628dc3d6af5bf54d03b2", null ],
-      [ "outFile", "namespacerun__ACTSTracking.html#a473bd60e069f89f4eb4d8588c08509b9", null ],
-      [ "outputDir", "namespacerun__ACTSTracking.html#ada17fddea233d5062ff3d42d82490ac5", null ],
-      [ "outputFile", "namespacerun__ACTSTracking.html#add83f453e6b2696958aff0de0969b1dc", null ],
-      [ "parser", "namespacerun__ACTSTracking.html#ab3edeeec030eb7825c70d6f4baf88acf", null ],
-      [ "realPR", "namespacerun__ACTSTracking.html#a9051dac2a237e6031ee6ccd557918504", null ],
-      [ "required", "namespacerun__ACTSTracking.html#ac6c206f04d89a3d97fd85d134a7b9ff2", null ],
-      [ "tmp", "namespacerun__ACTSTracking.html#a5fce0af33d0368e551b0c411e0aa7e9f", null ],
-      [ "type", "namespacerun__ACTSTracking.html#a1cc69da3f73bc5b9971b896610b3da48", null ],
-      [ "vertexing", "namespacerun__ACTSTracking.html#a023210aecd6147c1c4b5cdea80797442", null ]
-    ] ],
     [ "run_fixedTarget", "namespacerun__fixedTarget.html", [
       [ "get_work_dir", "namespacerun__fixedTarget.html#ace8e54c5ffd9284df4a7dde24a57c645", null ],
       [ "_ntuple", "namespacerun__fixedTarget.html#aed45e47bf61acf32c032a77a3cf9d035", null ],
@@ -1267,6 +1254,7 @@ var namespaces_dup =
       [ "fin", "namespacerun__simScript.html#acd3b74009edf7034331bd5acb8a5169e", null ],
       [ "float", "namespacerun__simScript.html#ae49febd49d327dfcdf13f395786856a3", null ],
       [ "fout", "namespacerun__simScript.html#a220cc43c43bf49500c5fdd5a4e9b8e44", null ],
+      [ "fromStage1", "namespacerun__simScript.html#a692123a1e3d2ed650731905b5309d3d4", null ],
       [ "fSink", "namespacerun__simScript.html#a93ba36fd021df754186946c4f0364058", null ],
       [ "fStack", "namespacerun__simScript.html#abe0f6f27c11e27c01a9ffffa37571906", null ],
       [ "generator", "namespacerun__simScript.html#a02102a7960adc8fef03efc124ebd545d", null ],
@@ -1304,6 +1292,7 @@ var namespaces_dup =
       [ "MCTracksWithEnergyCutOnly", "namespacerun__simScript.html#a72b9287fd77d5afe831004b5c07cc441", null ],
       [ "MCTracksWithHitsOnly", "namespacerun__simScript.html#a1787db151d7f5b198dc03543fd7b3189", null ],
       [ "MCTracksWithHitsOrEnergyCut", "namespacerun__simScript.html#a324d5620e02a104287e12097df596e9c", null ],
+      [ "message", "namespacerun__simScript.html#acb7df520cd2aaddd4adc5ef5ab2a0c3f", null ],
       [ "modules", "namespacerun__simScript.html#ae7848712849353a6eff11d829f0e5db5", null ],
       [ "motherMode", "namespacerun__simScript.html#aa50adad008f61ff145cdacf48b1753ac", null ],
       [ "mu", "namespacerun__simScript.html#aaefe89450d8f306a2fdac45154ec0fb6", null ],
@@ -1319,6 +1308,8 @@ var namespaces_dup =
       [ "nEvents", "namespacerun__simScript.html#ac224f2a2d08b71115bf77bb3b3f3dea3", null ],
       [ "new_tree", "namespacerun__simScript.html#a4435f2e074882181ff7ce09cef9ef113", null ],
       [ "newFileSummary", "namespacerun__simScript.html#aa57c176f480c3a1677f8c1f444598de6", null ],
+      [ "noField", "namespacerun__simScript.html#ab58c68f3dcf03d35e25e587fbd99c381", null ],
+      [ "noSummary", "namespacerun__simScript.html#ad9a56047450af617bfc899d747a05852", null ],
       [ "Ntuplegen", "namespacerun__simScript.html#ab93e824396c27419daefc1d01f0ab022", null ],
       [ "obj", "namespacerun__simScript.html#ad89392286feabdc2ca66e8ed78ce0972", null ],
       [ "onlyWithField", "namespacerun__simScript.html#a3af0fa92df9a96ee2384713287c1d247", null ],
@@ -1349,6 +1340,7 @@ var namespaces_dup =
       [ "ship_geo", "namespacerun__simScript.html#a151c419ab07f58189111d09a490975f5", null ],
       [ "sink", "namespacerun__simScript.html#ab28fa4e0bc561176e536feeece39e2d5", null ],
       [ "SND_design", "namespacerun__simScript.html#abfc0d3d48b6d07dad5d8363b594beef6", null ],
+      [ "startAtPlane", "namespacerun__simScript.html#adb363979bd17b8fa8d8ef9ad40cbf30a", null ],
       [ "sTree", "namespacerun__simScript.html#a2229f460fba4042a721114eda7d66190", null ],
       [ "subparsers", "namespacerun__simScript.html#ae7ab5ab47fdc0841c3b3bd17bc4df157", null ],
       [ "t", "namespacerun__simScript.html#aa64a07cb12f14b8bc744fb15cbb39d7b", null ],
@@ -1366,6 +1358,7 @@ var namespaces_dup =
       [ "trajFilter", "namespacerun__simScript.html#abb91726f585a0ba37957110e3883be6a", null ],
       [ "type", "namespacerun__simScript.html#adfb7a695088d9373dc7c795b7d8abb52", null ],
       [ "usedInputFiles", "namespacerun__simScript.html#a37c103c6ae06010e41e8c513b9a45096", null ],
+      [ "vertex_pars", "namespacerun__simScript.html#a8b2637a9a889581a8e226b0d24177fc6", null ],
       [ "z", "namespacerun__simScript.html#a90c25390918b8dd5a6f17d8efa00c9ed", null ],
       [ "z_end", "namespacerun__simScript.html#a79e45ce98ca051f0fab9a6eeebbb1f23", null ],
       [ "zDV", "namespacerun__simScript.html#aa52a3b35fc9639050ea8dcf392b88abe", null ],
@@ -1567,6 +1560,7 @@ var namespaces_dup =
       [ "RedoVertexing", "namespaceShipAna.html#a365f177c7bf68e9ef076d53d9eef85b6", null ],
       [ "VertexError", "namespaceShipAna.html#a199566e2c0d9990d581ac26bbb87cbad", null ],
       [ "action", "namespaceShipAna.html#afdad0a04c8dad7eb3e3d7b6d9b17a138", null ],
+      [ "actsMode", "namespaceShipAna.html#afc35235dbf0603e9cecc3516d3b64026", null ],
       [ "bfield", "namespaceShipAna.html#a1f85359f38d72674b0a60c4e12683bfe", null ],
       [ "chi2CutOff", "namespaceShipAna.html#ab9849a92f94b1776590ae98542810c63", null ],
       [ "default", "namespaceShipAna.html#a6a821359f5bb97c0c4c040adbc4cdca3", null ],
@@ -1678,6 +1672,7 @@ var namespaces_dup =
     [ "ShipReco", "namespaceShipReco.html", [
       [ "mem_monitor", "namespaceShipReco.html#abef5d8b1901b0297e8a03041a63b8d7d", null ],
       [ "action", "namespaceShipReco.html#acc64c7017469a0c560aa3810436b49f9", null ],
+      [ "caloScoringPlanePIDFile", "namespaceShipReco.html#ad9b2771a369d371e5006ef982cfc2a07", null ],
       [ "choices", "namespaceShipReco.html#a12a2a5b10f4a5325badc347d78021ee1", null ],
       [ "debug", "namespaceShipReco.html#aba8d4b220fb878568c7c6e33987a2186", null ],
       [ "default", "namespaceShipReco.html#a3a6784436be9cc0b73b71f2fb08c4dd5", null ],
@@ -1708,6 +1703,7 @@ var namespaces_dup =
       [ "ShipGeo", "namespaceShipReco.html#a57399f382942ed9788d85f3c9951cdeb", null ],
       [ "sink", "namespaceShipReco.html#a7adf1c90f5639c5887ba1d602f4b2f81", null ],
       [ "tmp", "namespaceShipReco.html#ac8b44ebebde083d26d062978f205ead9", null ],
+      [ "trackFitter", "namespaceShipReco.html#a10ff7da532c2440cc9aa03a46cf8f270", null ],
       [ "type", "namespaceShipReco.html#a9a338a5daf2d5cc378b238f64e270e9a", null ],
       [ "vertexing", "namespaceShipReco.html#a49d6219219d01a1d3260df48c2a40c09", null ],
       [ "withHists", "namespaceShipReco.html#a4cc8c323c3b85bdbb198ab178da862b7", null ],
@@ -1736,6 +1732,7 @@ var namespaces_dup =
       [ "parser", "namespaceshipStrawTracking.html#a6f1c8ab4a8627d83bd87a950231721c6", null ],
       [ "required", "namespaceshipStrawTracking.html#a33f41ada450d677435ffd880e7462d3a", null ]
     ] ],
+    [ "shipTrackAccess", "namespaceshipTrackAccess.html", "namespaceshipTrackAccess" ],
     [ "ShipUnit", "namespaceShipUnit.html", [
       [ "c_light", "namespaceShipUnit.html#aa5c80d1a788735fe9fd41b509583437b", null ],
       [ "cm", "namespaceShipUnit.html#a265f40d0ffca1af0d38fe9a050c98bcf", null ],
@@ -1901,6 +1898,9 @@ var namespaces_dup =
     [ "shipVertex", "namespaceshipVertex.html", "namespaceshipVertex" ],
     [ "shipVeto", "namespaceshipVeto.html", "namespaceshipVeto" ],
     [ "SiliconTargetDetector", "namespaceSiliconTargetDetector.html", "namespaceSiliconTargetDetector" ],
+    [ "skim_muonback_plane_smoke", "namespaceskim__muonback__plane__smoke.html", [
+      [ "main", "namespaceskim__muonback__plane__smoke.html#ae288d2ad6562289ee5767744f35eef1f", null ]
+    ] ],
     [ "skim_muonback_smoke", "namespaceskim__muonback__smoke.html", [
       [ "main", "namespaceskim__muonback__smoke.html#acd265e66314c1a63a4f8d835f99a00f0", null ]
     ] ],
@@ -1915,15 +1915,41 @@ var namespaces_dup =
       [ "complete_element_class", "namespacesplit__weight__uncertainties__rdf.html#af99313e5abf9234b30d6d34976fcfaf2", null ],
       [ "main", "namespacesplit__weight__uncertainties__rdf.html#a9bba3b650c2f8d18b977c5e469d2c373", null ]
     ] ],
+    [ "strawReco", "namespacestrawReco.html", "namespacestrawReco" ],
     [ "strawtubesDetector", "namespacestrawtubesDetector.html", "namespacestrawtubesDetector" ],
     [ "study_GammaConv", "namespacestudy__GammaConv.html", "namespacestudy__GammaConv" ],
     [ "study_muMSC", "namespacestudy__muMSC.html", "namespacestudy__muMSC" ],
     [ "study_thinTarget", "namespacestudy__thinTarget.html", "namespacestudy__thinTarget" ],
+    [ "test_caloScoringPlanePID", "namespacetest__caloScoringPlanePID.html", [
+      [ "config", "namespacetest__caloScoringPlanePID.html#aa4f431aa09983a937e2ac803986da45c", null ],
+      [ "ROOT", "namespacetest__caloScoringPlanePID.html#aa228b22955f0fd8ddd006ed1da44feb9", null ],
+      [ "test_binding_errors_are_not_reported_as_file_errors", "namespacetest__caloScoringPlanePID.html#a70c254a560c98f9511f53ef6e9344477", null ],
+      [ "test_conflicting_overrides_are_rejected", "namespacetest__caloScoringPlanePID.html#a67433fc8d185c777aeabaa16834295ca", null ],
+      [ "test_defaults", "namespacetest__caloScoringPlanePID.html#ab86bca51fab0cc01a039591b3f33d29a", null ],
+      [ "test_empty_pdg_overrides_key_is_allowed", "namespacetest__caloScoringPlanePID.html#a7b2d1e9785ac5d75d2dab382952c6f32", null ],
+      [ "test_environment_variables_are_expanded", "namespacetest__caloScoringPlanePID.html#aec9bdbfe3d7976908c0e10d9ee9981fa", null ],
+      [ "test_invalid_yaml", "namespacetest__caloScoringPlanePID.html#ae8e7c2a317d196e8a8e8d6ceb3cbff6c", null ],
+      [ "test_log_interpolation_and_several_points", "namespacetest__caloScoringPlanePID.html#a8af69fe59200c0ea772526d281f689d1", null ],
+      [ "test_malformed_files_are_rejected", "namespacetest__caloScoringPlanePID.html#ae8fa887995ca3912342532453612274f", null ],
+      [ "test_missing_file", "namespacetest__caloScoringPlanePID.html#add7ec50701d8c0558535fb04633f16f3", null ],
+      [ "test_nan_in_the_file_is_rejected", "namespacetest__caloScoringPlanePID.html#adf32c234122073414278e48ac1c6db89", null ],
+      [ "test_no_file_gives_perfect_identification", "namespacetest__caloScoringPlanePID.html#abb066a842f61f6ba49a8a0a4c3baaaa8", null ],
+      [ "test_numerical_errors_name_the_file", "namespacetest__caloScoringPlanePID.html#a6770ac97a9c2e9115e8419387421c5cf", null ],
+      [ "test_override_applies_to_both_signs", "namespacetest__caloScoringPlanePID.html#ab3a3aeac250e58ba9ac2886fc986b504", null ],
+      [ "test_overrides_keep_the_sign", "namespacetest__caloScoringPlanePID.html#a6ee7e2b1bf643c70321959e8d26a36c0", null ],
+      [ "test_rows_and_columns_are_reordered", "namespacetest__caloScoringPlanePID.html#a743101cd0e41d8b484a6e1d9560d4524", null ],
+      [ "test_shipped_file_loads_into_the_cpp_class", "namespacetest__caloScoringPlanePID.html#a6f001e7670280bacb41f5ecb0f226428", null ],
+      [ "test_shipped_file_parses", "namespacetest__caloScoringPlanePID.html#a3e2d440b412d57c6223a9125700501ea", null ],
+      [ "test_species_order_is_that_of_the_cpp_enum", "namespacetest__caloScoringPlanePID.html#a408d55e58013ad31213b68a79d95e390", null ],
+      [ "IDENTITY", "namespacetest__caloScoringPlanePID.html#aa0d201ed283e813f50425fed3f73fa9c", null ],
+      [ "SHIPPED", "namespacetest__caloScoringPlanePID.html#a4bdd123bc95bf219099d51ad9e4bbcf2", null ]
+    ] ],
     [ "test_cavern_layout", "namespacetest__cavern__layout.html", [
-      [ "layout_constants", "namespacetest__cavern__layout.html#a2283051e76f1aa7a8c82cac658205f54", null ],
-      [ "test_ecn3_cross_section_matches_ship_cave", "namespacetest__cavern__layout.html#afdbe73d6330b1f4784ffae01cdab25d5", null ],
-      [ "LAYOUT", "namespacetest__cavern__layout.html#a70173db19d945df90fdeece9a215b7ef", null ],
-      [ "QUANTITIES", "namespacetest__cavern__layout.html#a0de441203533b37132b2e927eb08380b", null ]
+      [ "layout", "namespacetest__cavern__layout.html#a5f04886ec89edf4dfc9e87621c106663", null ],
+      [ "test_ecn3_cross_section_matches_ship_cave", "namespacetest__cavern__layout.html#a2683070b80125a4aa2063c5216ad5f1f", null ],
+      [ "QUANTITIES", "namespacetest__cavern__layout.html#a0de441203533b37132b2e927eb08380b", null ],
+      [ "ROOT", "namespacetest__cavern__layout.html#aba89b5d92c5fcc6db6eaf01f2769200b", null ],
+      [ "SOURCE", "namespacetest__cavern__layout.html#a27e36b17b7dc9c634e2582189df7df2b", null ]
     ] ],
     [ "test_event_histogram", "namespacetest__event__histogram.html", [
       [ "correlated_sample", "namespacetest__event__histogram.html#a412d8d079290903a55507df1ceade99b", null ],
@@ -2017,6 +2043,7 @@ var namespaces_dup =
       [ "G4", "namespacetest__split__provenance.html#a693a413e0f44dbcba32ddae90e26de30", null ],
       [ "PRUNED", "namespacetest__split__provenance.html#a32ae21fa0c40d77990c37ffe8f999f46", null ]
     ] ],
+    [ "test_straw_reco", "namespacetest__straw__reco.html", "namespacetest__straw__reco" ],
     [ "timeDetector", "namespacetimeDetector.html", "namespacetimeDetector" ],
     [ "TrackExtrapolateTool", "namespaceTrackExtrapolateTool.html", [
       [ "extrapolateToPlane", "namespaceTrackExtrapolateTool.html#ac357e10f3671079a5b9c5706b564b421", null ],

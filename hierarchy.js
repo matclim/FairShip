@@ -5,10 +5,14 @@ var hierarchy =
     [ "AbsBField", null, [
       [ "genfit::FairShipFields", "classgenfit_1_1FairShipFields.html", null ]
     ] ],
+    [ "SHiP::ActsStrawGeometry", "classSHiP_1_1ActsStrawGeometry.html", null ],
+    [ "SHiP::ActsStrawTracker", "classSHiP_1_1ActsStrawTracker.html", null ],
     [ "MagneticTrackPropagator::Box", "structMagneticTrackPropagator_1_1Box.html", null ],
+    [ "CaloScoringPlanePID", "classCaloScoringPlanePID.html", null ],
     [ "ShipMuDIS::CBMSimBranches", "structShipMuDIS_1_1CBMSimBranches.html", null ],
     [ "hnl.CKMmatrix", "classhnl_1_1CKMmatrix.html", null ],
     [ "Co3Rng", "classCo3Rng.html", null ],
+    [ "SHiP::StrawPatRec::Config", "structSHiP_1_1StrawPatRec_1_1Config.html", null ],
     [ "hnl.constants", "classhnl_1_1constants.html", null ],
     [ "rpvsusy.constants", "classrpvsusy_1_1constants.html", null ],
     [ "darkphoton.DarkPhoton", "classdarkphoton_1_1DarkPhoton.html", null ],
@@ -134,6 +138,8 @@ var hierarchy =
       [ "eventDisplay.Rulers", "classeventDisplay_1_1Rulers.html", null ]
     ] ],
     [ "test_signal_particle.FakeTrack", "classtest__signal__particle_1_1FakeTrack.html", null ],
+    [ "test_straw_reco.FakeTrack", "classtest__straw__reco_1_1FakeTrack.html", null ],
+    [ "test_straw_reco.FakeTracker", "classtest__straw__reco_1_1FakeTracker.html", null ],
     [ "ShipFieldMaker::fieldInfo", "structShipFieldMaker_1_1fieldInfo.html", null ],
     [ "MagneticTrackPropagator::FieldMap", "structMagneticTrackPropagator_1_1FieldMap.html", null ],
     [ "MuDISFilter::FilterCandidate", "structMuDISFilter_1_1FilterCandidate.html", null ],
@@ -143,6 +149,7 @@ var hierarchy =
     [ "hnl.HNLbranchings", "classhnl_1_1HNLbranchings.html", [
       [ "hnl.HNL", "classhnl_1_1HNL.html", null ]
     ] ],
+    [ "SHiP::ActsStrawTracker::Impl", "structSHiP_1_1ActsStrawTracker_1_1Impl.html", null ],
     [ "makeCascadePythia8.InclusiveSignalEvents", "classmakeCascadePythia8_1_1InclusiveSignalEvents.html", null ],
     [ "eventDisplay.IO", "classeventDisplay_1_1IO.html", null ],
     [ "ISTLPointContainer", "classISTLPointContainer.html", [
@@ -157,6 +164,10 @@ var hierarchy =
       [ "SHiP::Detector< vetoPoint >", "classSHiP_1_1Detector.html", null ],
       [ "SHiP::Detector< strawtubesPoint >", "classSHiP_1_1Detector.html", null ],
       [ "SHiP::Detector< PointType >", "classSHiP_1_1Detector.html", null ]
+    ] ],
+    [ "SHiP::LineSegment", "structSHiP_1_1LineSegment.html", null ],
+    [ "Acts::MagneticFieldProvider", null, [
+      [ "SHiP::ActsShipField", "classSHiP_1_1ActsShipField.html", null ]
     ] ],
     [ "MagneticTrackPropagator", "classMagneticTrackPropagator.html", null ],
     [ "fieldMapTools.MapRange", "classfieldMapTools_1_1MapRange.html", null ],
@@ -173,6 +184,8 @@ var hierarchy =
     [ "MuonPath", "classMuonPath.html", null ],
     [ "MuGeoProcessor::MuonWeights", "structMuGeoProcessor_1_1MuonWeights.html", null ],
     [ "ParticleGunParticle", "structParticleGunParticle.html", null ],
+    [ "SHiP::PatRecHit", "structSHiP_1_1PatRecHit.html", null ],
+    [ "caloScoringPlanePID.PIDModel", "classcaloScoringPlanePID_1_1PIDModel.html", null ],
     [ "SHiP::ScoringPlane< PointType >::Plane", "structSHiP_1_1ScoringPlane_1_1Plane.html", null ],
     [ "ROOT.pyFairModule", null, [
       [ "study_GammaConv.Block", "classstudy__GammaConv_1_1Block.html", null ],
@@ -196,6 +209,9 @@ var hierarchy =
     [ "ShipStack::SplitInfo", "structShipStack_1_1SplitInfo.html", null ],
     [ "split_provenance.SplitProvenance", "classsplit__provenance_1_1SplitProvenance.html", null ],
     [ "MagneticTrackPropagator::State", "structMagneticTrackPropagator_1_1State.html", null ],
+    [ "strawReco.StrawHit", "classstrawReco_1_1StrawHit.html", null ],
+    [ "SHiP::StrawPatRec", "classSHiP_1_1StrawPatRec.html", null ],
+    [ "SHiP::StrawWire", "structSHiP_1_1StrawWire.html", null ],
     [ "shipVertex.Task", "classshipVertex_1_1Task.html", null ],
     [ "shipVeto.Task", "classshipVeto_1_1Task.html", null ],
     [ "TG4RunConfiguration", null, [
@@ -209,6 +225,7 @@ var hierarchy =
     ] ],
     [ "TObject", null, [
       [ "SHiP::DetectorHit", "classSHiP_1_1DetectorHit.html", [
+        [ "CaloScoringPlaneHit", "classCaloScoringPlaneHit.html", null ],
         [ "MTCDetHit", "classMTCDetHit.html", null ],
         [ "SiliconTargetHit", "classSiliconTargetHit.html", null ],
         [ "TimeDetHit", "classTimeDetHit.html", null ],
@@ -216,6 +233,8 @@ var hierarchy =
         [ "strawtubesHit", "classstrawtubesHit.html", null ],
         [ "vetoHit", "classvetoHit.html", null ]
       ] ],
+      [ "SHiP::RecoTrack", "classSHiP_1_1RecoTrack.html", null ],
+      [ "SHiP::RecoVertex", "classSHiP_1_1RecoVertex.html", null ],
       [ "ShipMCTrack", "classShipMCTrack.html", null ],
       [ "ShipParticle", "classShipParticle.html", null ],
       [ "TrackInfo", "classTrackInfo.html", null ],
@@ -223,6 +242,8 @@ var hierarchy =
       [ "vetoHitOnTrack", "classvetoHitOnTrack.html", null ]
     ] ],
     [ "TrackBuffer", "structTrackBuffer.html", null ],
+    [ "SHiP::TrackCandidate", "structSHiP_1_1TrackCandidate.html", null ],
+    [ "shipTrackAccess.TrackInfo", "classshipTrackAccess_1_1TrackInfo.html", null ],
     [ "tracking_benchmark.TrackingBenchmark", "classtracking__benchmark_1_1TrackingBenchmark.html", null ],
     [ "ShipFieldMaker::transformInfo", "structShipFieldMaker_1_1transformInfo.html", null ],
     [ "TVirtualMagField", null, [
@@ -232,10 +253,14 @@ var hierarchy =
     [ "TVirtualMCDecayer", null, [
       [ "TEvtGenDecayer", "classTEvtGenDecayer.html", null ]
     ] ],
+    [ "ValueError", null, [
+      [ "caloScoringPlanePID.PIDConfigError", "classcaloScoringPlanePID_1_1PIDConfigError.html", null ]
+    ] ],
     [ "Veto", "classVeto.html", null ],
     [ "exitHadronAbsorber::WeightHistory", "structexitHadronAbsorber_1_1WeightHistory.html", null ],
     [ "ABC", null, [
       [ "BaseDetector.BaseDetector", "classBaseDetector_1_1BaseDetector.html", [
+        [ "CaloScoringPlaneDetector.CaloScoringPlaneDetector", "classCaloScoringPlaneDetector_1_1CaloScoringPlaneDetector.html", null ],
         [ "MTCDetector.MTCDetector", "classMTCDetector_1_1MTCDetector.html", null ],
         [ "SBTDetector.SBTDetector", "classSBTDetector_1_1SBTDetector.html", null ],
         [ "SiliconTargetDetector.SiliconTargetDetector", "classSiliconTargetDetector_1_1SiliconTargetDetector.html", null ],

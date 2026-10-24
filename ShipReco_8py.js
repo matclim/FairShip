@@ -2,6 +2,7 @@ var ShipReco_8py =
 [
     [ "mem_monitor", "ShipReco_8py.html#abef5d8b1901b0297e8a03041a63b8d7d", null ],
     [ "action", "ShipReco_8py.html#acc64c7017469a0c560aa3810436b49f9", null ],
+    [ "caloScoringPlanePIDFile", "ShipReco_8py.html#ad9b2771a369d371e5006ef982cfc2a07", null ],
     [ "choices", "ShipReco_8py.html#a12a2a5b10f4a5325badc347d78021ee1", null ],
     [ "debug", "ShipReco_8py.html#aba8d4b220fb878568c7c6e33987a2186", null ],
     [ "default", "ShipReco_8py.html#a3a6784436be9cc0b73b71f2fb08c4dd5", null ],
@@ -32,6 +33,7 @@ var ShipReco_8py =
     [ "ShipGeo", "ShipReco_8py.html#a57399f382942ed9788d85f3c9951cdeb", null ],
     [ "sink", "ShipReco_8py.html#a7adf1c90f5639c5887ba1d602f4b2f81", null ],
     [ "tmp", "ShipReco_8py.html#ac8b44ebebde083d26d062978f205ead9", null ],
+    [ "trackFitter", "ShipReco_8py.html#a10ff7da532c2440cc9aa03a46cf8f270", null ],
     [ "type", "ShipReco_8py.html#a9a338a5daf2d5cc378b238f64e270e9a", null ],
     [ "vertexing", "ShipReco_8py.html#a49d6219219d01a1d3260df48c2a40c09", null ],
     [ "withHists", "ShipReco_8py.html#a4cc8c323c3b85bdbb198ab178da862b7", null ],

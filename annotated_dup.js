@@ -3,6 +3,13 @@ var annotated_dup =
     [ "BaseDetector", "namespaceBaseDetector.html", [
       [ "BaseDetector", "classBaseDetector_1_1BaseDetector.html", "classBaseDetector_1_1BaseDetector" ]
     ] ],
+    [ "CaloScoringPlaneDetector", "namespaceCaloScoringPlaneDetector.html", [
+      [ "CaloScoringPlaneDetector", "classCaloScoringPlaneDetector_1_1CaloScoringPlaneDetector.html", "classCaloScoringPlaneDetector_1_1CaloScoringPlaneDetector" ]
+    ] ],
+    [ "caloScoringPlanePID", "namespacecaloScoringPlanePID.html", [
+      [ "PIDConfigError", "classcaloScoringPlanePID_1_1PIDConfigError.html", null ],
+      [ "PIDModel", "classcaloScoringPlanePID_1_1PIDModel.html", null ]
+    ] ],
     [ "darkphoton", "namespacedarkphoton.html", [
       [ "DarkPhoton", "classdarkphoton_1_1DarkPhoton.html", "classdarkphoton_1_1DarkPhoton" ]
     ] ],
@@ -59,11 +66,21 @@ var annotated_dup =
       [ "SciFiMapping", "classSciFiMapping_1_1SciFiMapping.html", "classSciFiMapping_1_1SciFiMapping" ]
     ] ],
     [ "SHiP", "namespaceSHiP.html", [
+      [ "ActsShipField", "classSHiP_1_1ActsShipField.html", "classSHiP_1_1ActsShipField" ],
+      [ "ActsStrawGeometry", "classSHiP_1_1ActsStrawGeometry.html", "classSHiP_1_1ActsStrawGeometry" ],
+      [ "ActsStrawTracker", "classSHiP_1_1ActsStrawTracker.html", "classSHiP_1_1ActsStrawTracker" ],
       [ "Detector", "classSHiP_1_1Detector.html", "classSHiP_1_1Detector" ],
       [ "DetectorHit", "classSHiP_1_1DetectorHit.html", "classSHiP_1_1DetectorHit" ],
       [ "DetectorPoint", "classSHiP_1_1DetectorPoint.html", "classSHiP_1_1DetectorPoint" ],
       [ "Generator", "classSHiP_1_1Generator.html", "classSHiP_1_1Generator" ],
+      [ "LineSegment", "structSHiP_1_1LineSegment.html", "structSHiP_1_1LineSegment" ],
+      [ "PatRecHit", "structSHiP_1_1PatRecHit.html", "structSHiP_1_1PatRecHit" ],
+      [ "RecoTrack", "classSHiP_1_1RecoTrack.html", "classSHiP_1_1RecoTrack" ],
+      [ "RecoVertex", "classSHiP_1_1RecoVertex.html", "classSHiP_1_1RecoVertex" ],
       [ "ScoringPlane", "classSHiP_1_1ScoringPlane.html", "classSHiP_1_1ScoringPlane" ],
+      [ "StrawPatRec", "classSHiP_1_1StrawPatRec.html", "classSHiP_1_1StrawPatRec" ],
+      [ "StrawWire", "structSHiP_1_1StrawWire.html", "structSHiP_1_1StrawWire" ],
+      [ "TrackCandidate", "structSHiP_1_1TrackCandidate.html", "structSHiP_1_1TrackCandidate" ],
       [ "TTreeGenerator", "classSHiP_1_1TTreeGenerator.html", "classSHiP_1_1TTreeGenerator" ]
     ] ],
     [ "shipDigiReco", "namespaceshipDigiReco.html", [
@@ -80,6 +97,9 @@ var annotated_dup =
       [ "MuonDISInBranches", "structShipMuDIS_1_1MuonDISInBranches.html", "structShipMuDIS_1_1MuonDISInBranches" ],
       [ "MuonInBranches", "structShipMuDIS_1_1MuonInBranches.html", "structShipMuDIS_1_1MuonInBranches" ]
     ] ],
+    [ "shipTrackAccess", "namespaceshipTrackAccess.html", [
+      [ "TrackInfo", "classshipTrackAccess_1_1TrackInfo.html", null ]
+    ] ],
     [ "shipVertex", "namespaceshipVertex.html", [
       [ "Task", "classshipVertex_1_1Task.html", "classshipVertex_1_1Task" ]
     ] ],
@@ -93,6 +113,9 @@ var annotated_dup =
       [ "_Link", "classsplit__provenance_1_1__Link.html", null ],
       [ "Desplit", "classsplit__provenance_1_1Desplit.html", "classsplit__provenance_1_1Desplit" ],
       [ "SplitProvenance", "classsplit__provenance_1_1SplitProvenance.html", "classsplit__provenance_1_1SplitProvenance" ]
+    ] ],
+    [ "strawReco", "namespacestrawReco.html", [
+      [ "StrawHit", "classstrawReco_1_1StrawHit.html", "classstrawReco_1_1StrawHit" ]
     ] ],
     [ "strawtubesDetector", "namespacestrawtubesDetector.html", [
       [ "strawtubesDetector", "classstrawtubesDetector_1_1strawtubesDetector.html", "classstrawtubesDetector_1_1strawtubesDetector" ]
@@ -111,6 +134,10 @@ var annotated_dup =
     [ "test_signal_particle", "namespacetest__signal__particle.html", [
       [ "FakeTrack", "classtest__signal__particle_1_1FakeTrack.html", "classtest__signal__particle_1_1FakeTrack" ]
     ] ],
+    [ "test_straw_reco", "namespacetest__straw__reco.html", [
+      [ "FakeTrack", "classtest__straw__reco_1_1FakeTrack.html", "classtest__straw__reco_1_1FakeTrack" ],
+      [ "FakeTracker", "classtest__straw__reco_1_1FakeTracker.html", "classtest__straw__reco_1_1FakeTracker" ]
+    ] ],
     [ "timeDetector", "namespacetimeDetector.html", [
       [ "timeDetector", "classtimeDetector_1_1timeDetector.html", "classtimeDetector_1_1timeDetector" ]
     ] ],
@@ -123,6 +150,8 @@ var annotated_dup =
       [ "UpstreamTaggerDetector", "classUpstreamTaggerDetector_1_1UpstreamTaggerDetector.html", "classUpstreamTaggerDetector_1_1UpstreamTaggerDetector" ]
     ] ],
     [ "CaloScoringPlane", "classCaloScoringPlane.html", "classCaloScoringPlane" ],
+    [ "CaloScoringPlaneHit", "classCaloScoringPlaneHit.html", "classCaloScoringPlaneHit" ],
+    [ "CaloScoringPlanePID", "classCaloScoringPlanePID.html", "classCaloScoringPlanePID" ],
     [ "CaloScoringPlanePoint", "classCaloScoringPlanePoint.html", "classCaloScoringPlanePoint" ],
     [ "Co3Rng", "classCo3Rng.html", "classCo3Rng" ],
     [ "CosmicsGenerator", "classCosmicsGenerator.html", "classCosmicsGenerator" ],
@@ -199,8 +228,8 @@ var annotated_dup =
     [ "UpstreamTaggerScoringPlane", "classUpstreamTaggerScoringPlane.html", "classUpstreamTaggerScoringPlane" ],
     [ "UpstreamTaggerScoringPoint", "classUpstreamTaggerScoringPoint.html", "classUpstreamTaggerScoringPoint" ],
     [ "VectorMCPointSource", "classVectorMCPointSource.html", "classVectorMCPointSource" ],
-    [ "Veto", "classVeto.html", null ],
     [ "veto", "classveto.html", "classveto" ],
+    [ "Veto", "classVeto.html", null ],
     [ "vetoContFact", "classvetoContFact.html", "classvetoContFact" ],
     [ "vetoHit", "classvetoHit.html", "classvetoHit" ],
     [ "vetoHitOnTrack", "classvetoHitOnTrack.html", "classvetoHitOnTrack" ],
