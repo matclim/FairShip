@@ -1,13 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"structSHiP_1_1StrawPatRec_1_1Config.html#a1dc77a310886b8156a616314a9c10cd3":[6,0,16,7,0,7],
-"structSHiP_1_1StrawPatRec_1_1Config.html#a1e93856218f4831ea746892a1a1606e9":[5,0,92,8,0,10],
-"structSHiP_1_1StrawPatRec_1_1Config.html#a1e93856218f4831ea746892a1a1606e9":[6,0,16,7,0,10],
-"structSHiP_1_1StrawPatRec_1_1Config.html#a25e3767d6f36e3077cd3e611e7c6ff3f":[5,0,92,8,0,2],
-"structSHiP_1_1StrawPatRec_1_1Config.html#a25e3767d6f36e3077cd3e611e7c6ff3f":[6,0,16,7,0,2],
-"structSHiP_1_1StrawPatRec_1_1Config.html#a3e3a429e0bcf5fc24820972ba59757c8":[5,0,92,8,0,0],
-"structSHiP_1_1StrawPatRec_1_1Config.html#a3e3a429e0bcf5fc24820972ba59757c8":[6,0,16,7,0,0],
-"structSHiP_1_1StrawPatRec_1_1Config.html#a414fce57ced98dc30aefc1dec7033cc9":[5,0,92,8,0,3],
 "structSHiP_1_1StrawPatRec_1_1Config.html#a414fce57ced98dc30aefc1dec7033cc9":[6,0,16,7,0,3],
 "structSHiP_1_1StrawPatRec_1_1Config.html#a71492238bf4ff8907efe5598a2b98b27":[5,0,92,8,0,4],
 "structSHiP_1_1StrawPatRec_1_1Config.html#a71492238bf4ff8907efe5598a2b98b27":[6,0,16,7,0,4],
@@ -249,5 +241,13 @@ var NAVTREEINDEX30 =
 "structTrackBuffer.html#a3fe69e804f05632bfdac87fc2c7f1e40":[6,0,104,2],
 "structTrackBuffer.html#a56a37ba18ae2d353fa762f580ff8a141":[6,0,104,3],
 "structTrackBuffer.html#a76e3d69f5306d69c9cbcb3254f020dd5":[6,0,104,15],
-"structTrackBuffer.html#a78d78f89b63f557dfd153539991223f8":[6,0,104,13]
+"structTrackBuffer.html#a78d78f89b63f557dfd153539991223f8":[6,0,104,13],
+"structTrackBuffer.html#a82f54dde28cb193990ffec500e7ead8d":[6,0,104,16],
+"structTrackBuffer.html#a8e5815f0769aeee1605448a06490eb90":[6,0,104,5],
+"structTrackBuffer.html#a98b13f1bc0880a94a71ec78e54d616df":[6,0,104,7],
+"structTrackBuffer.html#aa93184610a524d39c9cec1d5f24eda5e":[6,0,104,4],
+"structTrackBuffer.html#ab58809fbaaf19dd4093d14caa0d0f2e0":[6,0,104,1],
+"structTrackBuffer.html#ada45080a16cdbbd9a694348c9649c86c":[6,0,104,6],
+"structUpstreamTagger_1_1Region.html":[6,0,108,0],
+"structUpstreamTagger_1_1Region.html#a0ae5f2651c45f85f375419f089cc7cc2":[6,0,108,0,1]
 };

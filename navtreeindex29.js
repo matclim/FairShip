@@ -1,13 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"run__simScript_8py_source.html":[7,0,8,21],
-"run__tracking__benchmark_8py.html":[7,0,8,22],
-"run__tracking__benchmark_8py_source.html":[7,0,8,22],
-"run__tracking__scan_8py.html":[7,0,8,23],
-"run__tracking__scan_8py_source.html":[7,0,8,23],
-"saveBasicParameters_8py.html":[7,0,13,33],
-"saveBasicParameters_8py_source.html":[7,0,13,33],
-"shipDet__conf_8py.html":[7,0,13,35],
 "shipDet__conf_8py_source.html":[7,0,13,35],
 "shipDigiReco_8py.html":[7,0,13,36],
 "shipDigiReco_8py_source.html":[7,0,13,36],
@@ -249,5 +241,13 @@ var NAVTREEINDEX29 =
 "structSHiP_1_1StrawPatRec_1_1Config.html#a0e095d5d7fa4d75b306da69ae5084623":[6,0,16,7,0,8],
 "structSHiP_1_1StrawPatRec_1_1Config.html#a1b38fb4461787c0a84258975e4edc2bc":[5,0,92,8,0,11],
 "structSHiP_1_1StrawPatRec_1_1Config.html#a1b38fb4461787c0a84258975e4edc2bc":[6,0,16,7,0,11],
-"structSHiP_1_1StrawPatRec_1_1Config.html#a1dc77a310886b8156a616314a9c10cd3":[5,0,92,8,0,7]
+"structSHiP_1_1StrawPatRec_1_1Config.html#a1dc77a310886b8156a616314a9c10cd3":[5,0,92,8,0,7],
+"structSHiP_1_1StrawPatRec_1_1Config.html#a1dc77a310886b8156a616314a9c10cd3":[6,0,16,7,0,7],
+"structSHiP_1_1StrawPatRec_1_1Config.html#a1e93856218f4831ea746892a1a1606e9":[5,0,92,8,0,10],
+"structSHiP_1_1StrawPatRec_1_1Config.html#a1e93856218f4831ea746892a1a1606e9":[6,0,16,7,0,10],
+"structSHiP_1_1StrawPatRec_1_1Config.html#a25e3767d6f36e3077cd3e611e7c6ff3f":[5,0,92,8,0,2],
+"structSHiP_1_1StrawPatRec_1_1Config.html#a25e3767d6f36e3077cd3e611e7c6ff3f":[6,0,16,7,0,2],
+"structSHiP_1_1StrawPatRec_1_1Config.html#a3e3a429e0bcf5fc24820972ba59757c8":[5,0,92,8,0,0],
+"structSHiP_1_1StrawPatRec_1_1Config.html#a3e3a429e0bcf5fc24820972ba59757c8":[6,0,16,7,0,0],
+"structSHiP_1_1StrawPatRec_1_1Config.html#a414fce57ced98dc30aefc1dec7033cc9":[5,0,92,8,0,3]
 };
